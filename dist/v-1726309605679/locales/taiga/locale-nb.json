@@ -1739,7 +1739,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "Arrangementer",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Aktivert",
             "COLUMN_PROJECT": "Prosjekt"

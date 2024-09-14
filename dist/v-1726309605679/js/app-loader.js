@@ -10,10 +10,10 @@
 (function() {
   var loadApp, loadJS, loadPlugin, loadPlugins, loadStylesheet, mainLoad, promise;
 
-  window._version = "v-1726284679008";
+  window._version = "v-1726309605679";
 
   window.taigaConfig = {
-    "api": "http://localhost:9000/api/v1/",
+    "api": "http://localhost:8000/api/v1/",
     "newsletterSubscriberUrl": "https://newsletter-subscriber.taiga.io",
     "eventsUrl": null,
     "tribeHost": null,

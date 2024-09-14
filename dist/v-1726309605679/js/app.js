@@ -47568,6 +47568,10 @@
             } else {
               value = this.translate.instant('ACTIVITY.VALUES.NOT_SET');
             }
+          } else if (timeline.getIn(["data", "value_diff", "key"]) === 'color') {
+            if (value) {
+              return value;
+            }
           }
           new_value = value;
         } else {

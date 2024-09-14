@@ -1739,7 +1739,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "Events",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Enabled",
             "COLUMN_PROJECT": "Projeto"
@@ -1748,7 +1748,7 @@
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "Usar imagem padrão",
         "ACTION_DELETE_ACCOUNT": "Excluir conta VST Team",
-        "ACTION_DOWNLOAD_PROFILE": "Download VTS Team profile",
+        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
         "ACTION_VERIFY_EMAIL": "Verify your email",
         "CHANGE_EMAIL_SUCCESS": "<strong>Verifique sua caixa de entrada!</strong><br />Enviamos um e-mail para sua conta<br />com as instruções para definir seu novo endereço",
         "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",

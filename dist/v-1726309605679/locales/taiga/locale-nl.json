@@ -1730,7 +1730,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "Events",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Enabled",
             "COLUMN_PROJECT": "Project"
@@ -1739,7 +1739,7 @@
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "Use default image",
         "ACTION_DELETE_ACCOUNT": "Verwijderd VST Team account",
-        "ACTION_DOWNLOAD_PROFILE": "Download VTS Team profile",
+        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
         "ACTION_VERIFY_EMAIL": "Verify your email",
         "CHANGE_EMAIL_SUCCESS": "<strong>Controleer je inbox!</strong><br />We hebben je een email gestuurd met instructie om je nieuwe adres in te stellen",
         "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",
@@ -1860,7 +1860,7 @@
     "EXTERNAL_APP": {
         "PAGE_TITLE": "An external app requires authentication",
         "PAGE_DESCRIPTION": "An external app requires authentication",
-        "AUTHORIZATION_REQUEST": "Authorize {{application}} to use your VTS Team account?",
+        "AUTHORIZATION_REQUEST": "Authorize {{application}} to use your VST Team account?",
         "LOGIN_WITH_ANOTHER_USER": "Login with another user",
         "AUTHORIZE_APP": "Authorize app",
         "CANCEL": "Annuleren"
@@ -1884,11 +1884,11 @@
             "STEP3": {
                 "TITLE": "Volgers",
                 "TEXT1": "And right here you will find the ones in your projects that you want to know about.",
-                "TEXT2": "You are already working with VTS Team ;)"
+                "TEXT2": "You are already working with VST Team ;)"
             },
             "STEP4": {
                 "TITLE": "Laten we beginnen",
-                "TEXT1": "You can start by creating your first VTS Team project.",
+                "TEXT1": "You can start by creating your first VST Team project.",
                 "TEXT2": "Veel succes!"
             }
         },

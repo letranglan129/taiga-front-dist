@@ -1738,7 +1738,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "Events",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Enabled",
             "COLUMN_PROJECT": "Projekt"
@@ -1747,7 +1747,7 @@
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "Użyj domyślnego obrazu",
         "ACTION_DELETE_ACCOUNT": "Usuń konto VST Team",
-        "ACTION_DOWNLOAD_PROFILE": "Download VTS Team profile",
+        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
         "ACTION_VERIFY_EMAIL": "Verify your email",
         "CHANGE_EMAIL_SUCCESS": "<strong>Sprawdź swoją skrzynkę e-mail!</strong><br />Wysłaliśmy wiadomość z instrukcjami.",
         "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",
@@ -1868,7 +1868,7 @@
     "EXTERNAL_APP": {
         "PAGE_TITLE": "An external app requires authentication",
         "PAGE_DESCRIPTION": "An external app requires authentication",
-        "AUTHORIZATION_REQUEST": "Authorize {{application}} to use your VTS Team account?",
+        "AUTHORIZATION_REQUEST": "Authorize {{application}} to use your VST Team account?",
         "LOGIN_WITH_ANOTHER_USER": "Login with another user",
         "AUTHORIZE_APP": "Authorize app",
         "CANCEL": "Anuluj"

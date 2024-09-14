@@ -1707,7 +1707,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "Events",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Enabled",
             "COLUMN_PROJECT": "Пројекат"
@@ -1716,7 +1716,7 @@
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "Користи стандардну слику",
         "ACTION_DELETE_ACCOUNT": "Уклони VST Team налог",
-        "ACTION_DOWNLOAD_PROFILE": "Download VTS Team profile",
+        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
         "ACTION_VERIFY_EMAIL": "Verify your email",
         "CHANGE_EMAIL_SUCCESS": "<strong>Проверите пошту!</strong><br />Послали смо вам емаил поруку<br />са инструкцијама како навести нову адресу",
         "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",

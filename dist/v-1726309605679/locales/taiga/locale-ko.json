@@ -1707,7 +1707,7 @@
         },
         "EVENTS": {
             "SECTION_NAME": "이벤트",
-            "SECTION_DESCRIPTION": "Important events in VTS Team header",
+            "SECTION_DESCRIPTION": "Important events in VST Team header",
             "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
             "COLUMN_ENABLED": "Enabled",
             "COLUMN_PROJECT": "프로젝트"
@@ -1716,7 +1716,7 @@
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "기본 이미지 사용",
         "ACTION_DELETE_ACCOUNT": "타이가 계정 삭제하기",
-        "ACTION_DOWNLOAD_PROFILE": "Download VTS Team profile",
+        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
         "ACTION_VERIFY_EMAIL": "Verify your email",
         "CHANGE_EMAIL_SUCCESS": "<strong>이메일 보관함을 확인하세요!</strong><br />새 주소를 설정할 수 있는 방법을<br />이메일로 알려드렸습니다.",
         "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",

@@ -17151,7 +17151,7 @@ tg-custom-field-edit-wysiwyg {
     color: #9b9cb1;
     text-decoration: line-through; }
   .epic-row.unfold .name .icon {
-    transform: rotate(180deg); }
+    transform: rotate(0deg); }
   .epic-row .fold-us {
     flex-shrink: 0;
     margin-left: .75rem;
@@ -17167,7 +17167,7 @@ tg-custom-field-edit-wysiwyg {
       color: #4C566A;
       margin-left: .25rem; }
     .epic-row .name .icon {
-      transform: rotate(0);
+      transform: rotate(-90deg);
       transition: all .2s; }
   .epic-row .icon-drag {
     width: 1rem;
