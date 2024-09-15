@@ -1127,7 +1127,7 @@
         },
         "NEWSLETTER_OPENING": {
             "NO_SHARE": "Zure pribatutasuna garrantzitsua da guretzat (ikus gure <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Joan pribatutasun-politika\" target=\"_blank\">pribatutasun-politika</a>).",
-            "OPT_OUT": "Mezu elektroniko garrantzitsuak soilik bidaliko dizkizugu (urtean <6). Harpidetza ken dezakezu edozein unetan, <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> helbidera mezu elektroniko bat bidalita, \"harpidetza kendu\" gaiarekin edo gure boletinen edozein estekaren bidez.",
+            "OPT_OUT": "Mezu elektroniko garrantzitsuak soilik bidaliko dizkizugu (urtean <6). Harpidetza ken dezakezu edozein unetan, <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> helbidera mezu elektroniko bat bidalita, \"harpidetza kendu\" gaiarekin edo gure boletinen edozein estekaren bidez.",
             "DONT_ASK": "Ez galdetu berriro",
             "SAVE_PREFERENCE": "GORDE HOBESPENAK",
             "LIGHTBOX_TITLE": "VST Teamri buruzko iragarkiak jaso nahi dituzu?",
@@ -1178,7 +1178,7 @@
             "CREATE": "Sortu eskaera bat hemen ",
             "PUBLIC": "public VST Team project",
             "EMAIL": "Bidali e-mail bat zuzenean helbide honetara ",
-            "SUPPORT": "support@VST Team.io",
+            "SUPPORT": "pm@vietstock.vn",
             "FAQ": "Sarritan egindako galderak",
             "VISIT": "Bisita ezazu "
         },

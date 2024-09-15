@@ -1124,7 +1124,7 @@
             "LIGHTBOX_TITLE": "Do you want to receive announcements about VST Team?",
             "CONFIRMATION": "Yes, send me news, product updates and recommendations about VST Team.",
             "NO_SHARE": "Your privacy matter to us (view our <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Go to privacy policy\" target=\"_blank\">privacy policy</a>).",
-            "OPT_OUT": "We will  only send relevant emails to you (<6 per year). You can unsubscribe at any time by sending an email to <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> with subject “unsubscribe” or through the link in any of our newsletters.",
+            "OPT_OUT": "We will  only send relevant emails to you (<6 per year). You can unsubscribe at any time by sending an email to <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> with subject “unsubscribe” or through the link in any of our newsletters.",
             "DONT_ASK": "Don’t ask again",
             "SAVE_PREFERENCE": "SAVE PREFERENCES",
             "NOTIFY_EXPLANATION": "We will send you news, product updates and recommendations about VST Team.",
@@ -1175,7 +1175,7 @@
             "CREATE": "Create an issue on this ",
             "PUBLIC": "public VST Team project",
             "EMAIL": "Send us a e-mail directly to ",
-            "SUPPORT": "support@VST Team.io"
+            "SUPPORT": "pm@vietstock.vn"
         },
         "SEARCH": {
             "TITLE": "Search",

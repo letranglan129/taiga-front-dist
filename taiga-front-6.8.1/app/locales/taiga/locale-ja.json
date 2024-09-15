@@ -1124,7 +1124,7 @@
             "NOTIFY_EXPLANATION": "VST Teamに関するニュースや更新情報、お勧めを配信します。",
             "SAVE_PREFERENCE": "設定を保存する",
             "DONT_ASK": "今後は表示しない",
-            "OPT_OUT": "関連するメールのみを送信します (年間6通未満)。 \"unsubscribe\"という件名のメールを <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> 宛に送るか、配信メール内のリンクからいつでも配信を停止できます。",
+            "OPT_OUT": "関連するメールのみを送信します (年間6通未満)。 \"unsubscribe\"という件名のメールを <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> 宛に送るか、配信メール内のリンクからいつでも配信を停止できます。",
             "NO_SHARE": "私たちはあなたのプライバシーを大切にしています (私たちの <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Go to privacy policy\" target=\"_blank\">プライバシーポリシー</a> をご覧ください)。",
             "CONFIRMATION": "はい、VST Teamに関するニュースや更新情報、お勧めを配信してください。",
             "LIGHTBOX_TITLE": "VST Teamについてのお知らせを受け取りますか？",
@@ -1171,7 +1171,7 @@
             "CREATE": "課題を作成する: ",
             "PUBLIC": "public VST Team project",
             "EMAIL": "直接メールする: ",
-            "SUPPORT": "support@VST Team.io"
+            "SUPPORT": "pm@vietstock.vn"
         },
         "SEARCH": {
             "TITLE": "検索",

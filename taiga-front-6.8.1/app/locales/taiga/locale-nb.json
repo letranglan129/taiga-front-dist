@@ -1128,7 +1128,7 @@
         "NEWSLETTER_OPENING": {
             "DONT_ASK": "Ikke spør igjen",
             "LIGHTBOX_TITLE": "Vil du ha nyheter om VST Team?",
-            "OPT_OUT": "Du vil kun få relevante e-poster for deg (<6 per år). Du kan oppheve abonnementet når som helst ved å sende en e-post til <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> med emnet «unsubscribe» eller bruke lenken i ett av nyhetsbrevene.",
+            "OPT_OUT": "Du vil kun få relevante e-poster for deg (<6 per år). Du kan oppheve abonnementet når som helst ved å sende en e-post til <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> med emnet «unsubscribe» eller bruke lenken i ett av nyhetsbrevene.",
             "NOTIFY_EXPLANATION": "Vi sender deg nyheter, produktoppdateringer, og anbefalinger om VST Team.",
             "NO_SHARE": "Ditt personvern betyr noe for oss (besøk vår <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Go to privacy policy\" target=\"_blank\">personvernspraksis</a>).",
             "SUBSCRIBE": "Abonner",
@@ -1178,7 +1178,7 @@
             "CREATE": "Opprett en sak på dette",
             "PUBLIC": "offentlig VST Team-prosjekt",
             "EMAIL": "Send oss en epost direkte til",
-            "SUPPORT": "support@VST Team.io",
+            "SUPPORT": "pm@vietstock.vn",
             "VISIT": "Besøk vår ",
             "FAQ": "ofte stilte spørsmål"
         },

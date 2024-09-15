@@ -1134,7 +1134,7 @@
             "SAVE_PREFERENCE": "ZAPISZ PREFERENCJE",
             "CONFIRMATION": "Tak, wysyłaj mi wiadomości, aktualizacje produktów i rekomendacje dotyczące Taigi.",
             "SUBSCRIBED": "Jesteś subskrybentem",
-            "OPT_OUT": "Będziemy wysyłać tylko istotne wiadomości e-mail (<6 rocznie). Możesz zrezygnować z subskrypcji w dowolnym momencie, wysyłając wiadomość e-mail na adres <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> z tematem \"unsubscribe\" lub za pośrednictwem łącza w dowolnym z naszych biuletynów.",
+            "OPT_OUT": "Będziemy wysyłać tylko istotne wiadomości e-mail (<6 rocznie). Możesz zrezygnować z subskrypcji w dowolnym momencie, wysyłając wiadomość e-mail na adres <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> z tematem \"unsubscribe\" lub za pośrednictwem łącza w dowolnym z naszych biuletynów.",
             "NOTIFY_EXPLANATION": "Będziemy wysyłać Ci informacje o nowościach, aktualizacji produktu i rekomendacje dotyczące VST Team."
         }
     },
@@ -1178,7 +1178,7 @@
             "CREATE": "Create an issue on this",
             "PUBLIC": "public VST Team project",
             "EMAIL": "Send us a e-mail directly to",
-            "SUPPORT": "support@VST Team.io",
+            "SUPPORT": "pm@vietstock.vn",
             "VISIT": "Odwiedź nasze ",
             "FAQ": "Najczęściej zadawane pytania"
         },

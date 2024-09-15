@@ -1135,7 +1135,7 @@
             "NO_SHARE": "Votre vie privée est importante pour nous (voir notre <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Go to privacy policy\" target=\"_blank\">politique de confidentialité</a>).",
             "SAVE_PREFERENCE": "SAUVEGARDER LES PRÉFÉRENCES",
             "DONT_ASK": "Ne plus demander",
-            "OPT_OUT": "Nous vous enverrons seulement des courriels pertinents (<6 par an). Vous pouvez vous désinscrire à tout moment en envoyant un courriel à <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> avec pour objet « unsubscribe » ou par le biais du lien figurant dans l'une de nos lettres d'information."
+            "OPT_OUT": "Nous vous enverrons seulement des courriels pertinents (<6 par an). Vous pouvez vous désinscrire à tout moment en envoyant un courriel à <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> avec pour objet « unsubscribe » ou par le biais du lien figurant dans l'une de nos lettres d'information."
         }
     },
     "LIGHTBOX": {
@@ -1178,7 +1178,7 @@
             "CREATE": "Créer un ticket là-dessus ",
             "PUBLIC": "projet public VST Team",
             "EMAIL": "Envoyez-nous un courriel directement à ",
-            "SUPPORT": "support@VST Team.io",
+            "SUPPORT": "pm@vietstock.vn",
             "VISIT": "Visitez notre ",
             "FAQ": "Foire aux questions"
         },

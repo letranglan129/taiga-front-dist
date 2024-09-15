@@ -1,0 +1,26 @@
+{#
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+Copyright (c) 2021-present Kaleidos INC
+#}
+
+<!-- BEGIN FOOTER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="footerContent"
+width="100%" id="templateFooter">
+    <tr>
+        <td valign="top">
+            {% block footer %}
+                <a href="{{ support_url }}">VST Team</a>
+            {% endblock %}
+        </td>
+        {% block social %}
+            <td valign="top" class="social-links">
+                <a href="{{ sr("taigaio_url") }}" title="{{ _
+                ("Visit our website") }}"><img src="https://finance.vietstock.vn/content/images/Vietstock_logo_100x100.png" /></a>
+            </td>
+        {% endblock %}
+    </tr>
+</table>
+<!-- // END FOOTER -->

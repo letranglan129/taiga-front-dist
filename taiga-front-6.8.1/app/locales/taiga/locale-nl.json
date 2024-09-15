@@ -1120,7 +1120,7 @@
         },
         "NEWSLETTER_OPENING": {
             "NOTIFY_EXPLANATION": "We zullen je nieuws, product updates en aanbevelingen over VST Team toesturen.",
-            "OPT_OUT": "We zullen allen belangrijke e-mails naar je sturen (<6 per jaar). Je kunt op elk moment uitschrijven door een e-mail te sturen naar <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> met als onderwerp \"uitschrijven\" of door op de link te klikken in een van onze e-mails.",
+            "OPT_OUT": "We zullen allen belangrijke e-mails naar je sturen (<6 per jaar). Je kunt op elk moment uitschrijven door een e-mail te sturen naar <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a> met als onderwerp \"uitschrijven\" of door op de link te klikken in een van onze e-mails.",
             "LIGHTBOX_TITLE": "Wil je mededelingen over VST Team ontvangen?",
             "DONT_ASK": "Niet opnieuw vragen",
             "CONFIRMATION": "Ja, stuur me nieuws, product updates en aanbevelingen over VST Team.",
@@ -1171,7 +1171,7 @@
             "CREATE": "Nieuw Issue aanmaken voor dit",
             "PUBLIC": "open VST Team project",
             "EMAIL": "Stuur ons een e-mail rechtstreeks aan",
-            "SUPPORT": "support@VST Team.io"
+            "SUPPORT": "pm@vietstock.vn"
         },
         "SEARCH": {
             "TITLE": "Zoek",

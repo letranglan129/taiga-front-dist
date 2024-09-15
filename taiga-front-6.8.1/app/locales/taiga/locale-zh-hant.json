@@ -1125,7 +1125,7 @@
             "LIGHTBOX_TITLE": "你想接收VST Team的新訊息嗎？",
             "DONT_ASK": "不再詢問",
             "SUBSCRIBE": "訂閲",
-            "OPT_OUT": "我們只會向你發送相關電子郵件（每年少於 6 封）。你可以隨時發送以「unsubscribe」題的電子郵件到 <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a>，或通訊中的連結來取消訂閱。",
+            "OPT_OUT": "我們只會向你發送相關電子郵件（每年少於 6 封）。你可以隨時發送以「unsubscribe」題的電子郵件到 <a href=\"mailto:pm@vietstock.vn\" target=\"_blank\">pm@vietstock.vn</a>，或通訊中的連結來取消訂閱。",
             "SAVE_PREFERENCE": "儲存選項"
         }
     },
@@ -1169,7 +1169,7 @@
             "CREATE": "Create an issue on this",
             "PUBLIC": "public VST Team project",
             "EMAIL": "Send us a e-mail directly to",
-            "SUPPORT": "support@VST Team.io",
+            "SUPPORT": "pm@vietstock.vn",
             "FAQ": "常見問題"
         },
         "SEARCH": {
