@@ -26,6 +26,8 @@ form.single-attachment(
         span.deprecated-file(ng-if="vm.attachment.getIn(['file', 'is_deprecated'])") {{'ATTACHMENT.DEPRECATED' | translate}}
         span {{vm.attachment.getIn(['file', 'description'])}}
 
+    .attachment-date
+        span {{::vm.attachment.getIn(['file', 'created_date']) | date:'dd MMM yyyy HH:mm'}}
     .attachment-size
         span {{::vm.attachment.getIn(['file', 'size']) | sizeFormat}}
 

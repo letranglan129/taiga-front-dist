@@ -640,9 +640,9 @@ IMPORTERS = {
         "client_secret": "",
     },
     "trello": {
-        "active": False,
-        "api_key": "",
-        "secret_key": "",
+        "active": True,
+        "api_key": "18435aed0497f6bab7beb17b34942059",
+        "secret_key": "08d0429a53621faeb70040f7dac6081b1a12097fe9a7dfcaf7c4a82a081ee564",
     },
     "jira": {
         "active": False,

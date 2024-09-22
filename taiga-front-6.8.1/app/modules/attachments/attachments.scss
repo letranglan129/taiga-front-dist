@@ -114,6 +114,12 @@
         opacity: 1;
         transform: translateY(0);
     }
+    &:has(.editable) .attachment-date {
+        display: none;
+    }
+    .attachment-date {
+        white-space: nowrap;
+    }
 }
 
 .more-attachments {
