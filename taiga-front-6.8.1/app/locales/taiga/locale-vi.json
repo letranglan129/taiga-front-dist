@@ -17,13 +17,13 @@
         "BACK": "Trở lại",
         "COPY_TO_CLIPBOARD": "Chép vào bộ nhớ tạm",
         "COPIED_TO_CLIPBOARD": "Văn bản đã được sao chép vào bộ nhớ tạm",
-        "MOVE_TO_TOP": "Move to top",
+        "MOVE_TO_TOP": "Đưa lên đầu",
         "EDIT": "Sửa",
         "DRAG": "Kéo",
         "TAG_LINE": "Công cụ quản lý dự án nhanh chóng, miễn phí và nguồn mở",
         "TAG_LINE_2": "YÊU THÍCH DỰ ÁN CỦA BẠN",
         "BLOCK": "Chặn",
-        "BLOCK_TITLE": "Block this item, for example if it has a dependency that can not be satisfied",
+        "BLOCK_TITLE": "Chặn mục này, ví dụ nếu nó có một phụ thuộc không thể được thỏa mãn.",
         "BLOCKED": "Chặn",
         "UNBLOCK": "Bỏ chặn",
         "UNBLOCK_TITLE": "Chặn mục này",
@@ -40,8 +40,8 @@
         "NEXT": "Tiếp theo",
         "LOGOUT": "Thoát ra",
         "EXTERNAL_USER": "người dùng bên ngoài",
-        "GENERIC_ERROR": "The VST Team says {{error}}.",
-        "IOCAINE_TEXT": "This member is feeling a bit overwhelmed by this task. They will become immune to the iocaine poison over time with your help. For now, they may need a hug.",
+        "GENERIC_ERROR": "VST Team có lỗi {{error}}.",
+        "IOCAINE_TEXT": "Thành viên này đang cảm thấy hơi choáng ngợp trước nhiệm vụ này. Họ sẽ trở nên miễn dịch với chất độc icain theo thời gian với sự giúp đỡ của bạn. Hiện tại, họ có thể cần một cái ôm.",
         "CLIENT_REQUIREMENT": "A client requirement is a new requirement that was not previously expected and is required to be part of the project",
         "TEAM_REQUIREMENT": "A team requirement is a requirement that must exist in the project but should have no cost for the client",
         "OWNER": "Chủ dự án",
@@ -50,44 +50,44 @@
         "CONFIRM_CLOSE_EDIT_MODE_MESSAGE": "Hãy nhớ rằng nếu bạn đóng chế độ chỉnh sửa mà không lưu thì mọi thay đổi sẽ mất",
         "RELATED_USERSTORIES": "Nhật kí người dùng liên quan",
         "CARD": {
-            "ASSIGN_TO": "Phân chia cho",
+            "ASSIGN_TO": "Phân công cho",
             "EDIT": "Chỉnh sửa thẻ",
-            "DELETE": "Delete card",
+            "DELETE": "Xóa thẻ",
             "DELETE_ISSUE": "Xóa issue",
-            "DETACH_ISSUE_FROM_SPRINT": "Detach from sprint",
-            "PTS": "{{pts}} pts",
-            "DUE_DATE": "Due date: {{date}}",
+            "DETACH_ISSUE_FROM_SPRINT": "Gỡ khỏi sprint",
+            "PTS": "{{pts}} điểm",
+            "DUE_DATE": "Hạn chót: {{date}}",
             "NO_PTS": "N/E",
-            "ESTIMATION": "Estimation",
-            "TASKS": "{{completed}} tasks of {{total}} completed",
-            "EXTRA_ASSIGNED_USERS": "{{total}} more assigned users"
+            "ESTIMATION": "Ước lượng",
+            "TASKS": "{{completed}} nhiệm vụ trong tổng số {{total}} đã hoàn thành",
+            "EXTRA_ASSIGNED_USERS": "{{total}} người dùng được phân công thêm"
         },
         "FORM_ERRORS": {
             "DEFAULT_MESSAGE": "Giá trị này có vẻ như không hợp lệ.",
-            "TYPE_EMAIL": "Giá trị này cần phải là một email khả dụng",
-            "TYPE_URL": "Giá trị này cần phải là một URL khả dụng",
-            "TYPE_URLSTRICT": "Giá trị này cần phải là một URL khả dụng",
-            "TYPE_NUMBER": "Giá trị này phải là một số khả dụng",
+            "TYPE_EMAIL": "Giá trị này cần phải là một email khả dụng.",
+            "TYPE_URL": "Giá trị này cần phải là một URL khả dụng.",
+            "TYPE_URLSTRICT": "Giá trị này cần phải là một URL khả dụng.",
+            "TYPE_NUMBER": "Giá trị này phải là một số khả dụng.",
             "TYPE_DIGITS": "Giá trị này nên là chữ số.",
-            "TYPE_DATEISO": "Giá trị này cần là một ngày tháng khả dụng (Năm- Tháng- Ngày).",
+            "TYPE_DATEISO": "Giá trị này cần là một ngày tháng khả dụng (Năm-Tháng-Ngày).",
             "TYPE_ALPHANUM": "Giá trị này cần phải là chữ và số.",
             "TYPE_PHONE": "Giá trị này cần phải là một số điện thoại hợp lệ.",
-            "NOTNULL": "Giá trị này không phải là vô giá trị.",
-            "NOT_BLANK": "Giá trị này không được để trống",
-            "REQUIRED": "Giá trị này là bắt buộc",
+            "NOTNULL": "Giá trị này không được để trống.",
+            "NOT_BLANK": "Giá trị này không được để trống.",
+            "REQUIRED": "Giá trị này là bắt buộc.",
             "REGEXP": "Giá trị này có vẻ như không hợp lệ.",
             "MIN": "Giá trị này phải lớn hơn hoặc bằng %s.",
-            "MAX": "Giá trị này phải nhỏ hơn hoặc bằng với %s.",
-            "RANGE": "Giá trị này cần nằm trong khoảng từ % tới %s.",
-            "MIN_LENGTH": "Giá trị này quá ngắn. Cần phải có thêm % kí tự hoặc nhiều hơn.",
-            "MAX_LENGTH": "Giá trị này quá dài. Cần có ít hơn % kí tự hoặc ít hơn nữa.",
-            "RANGE_LENGTH": "This value's length is invalid. It should be between %s and %s characters long.",
+            "MAX": "Giá trị này phải nhỏ hơn hoặc bằng %s.",
+            "RANGE": "Giá trị này cần nằm trong khoảng từ %s tới %s.",
+            "MIN_LENGTH": "Giá trị này quá ngắn. Cần thêm % ký tự hoặc nhiều hơn.",
+            "MAX_LENGTH": "Giá trị này quá dài. Cần ít hơn % ký tự hoặc ít hơn nữa.",
+            "RANGE_LENGTH": "Độ dài của giá trị này không hợp lệ. Nó nên nằm trong khoảng từ %s đến %s ký tự.",
             "MIN_CHECK": "Bạn phải có ít nhất % lựa chọn.",
             "MAX_CHECK": "Bạn phải chọn ít nhất % hoặc ít hơn.",
-            "RANGE_CHECK": "Bạn phải có khoảng % và % lựa chọn",
-            "EQUAL_TO": "Giá này phải giống nhau",
-            "LINEWIDTH": "Một hoặc nhiều dòng hơn có thể sẽ quá dài. Cố gắng nhập ít hơn % kí tự.",
-            "PIKADAY": "Mẫu ngày tháng không hợp lệ, vui lòng nhập Ngày Tháng Năm (ví dụ: 23/3/1984)"
+            "RANGE_CHECK": "Bạn phải có khoảng % và % lựa chọn.",
+            "EQUAL_TO": "Giá trị này phải giống nhau.",
+            "LINEWIDTH": "Một hoặc nhiều dòng có thể quá dài. Cố gắng nhập ít hơn % ký tự.",
+            "PIKADAY": "Mẫu ngày tháng không hợp lệ, vui lòng nhập Ngày Tháng Năm (ví dụ: 23/3/1984)."
         },
         "PICKERDATE": {
             "FORMAT": "DD MMM YYYY",
@@ -138,53 +138,53 @@
             "ADD": "Thêm thẻ"
         },
         "DESCRIPTION": {
-            "EMPTY": "Empty space is so boring... go on, be descriptive...",
-            "NO_DESCRIPTION": "Chưa có mô tả nào"
+            "EMPTY": "Không có mô tả thật nhàm chán... hãy đi nào, hãy mô tả chi tiết hơn...",
+            "NO_DESCRIPTION": "Chưa có mô tả nào."
         },
         "FIELDS": {
-            "SUBJECT": "Subject",
+            "SUBJECT": "Chủ đề",
             "NAME": "Tên",
             "URL": "URL",
             "DESCRIPTION": "Mô tả",
             "VALUE": "Giá trị",
             "SLUG": "Slug",
             "COLOR": "Màu",
-            "IS_CLOSED": "đã đóng?",
+            "IS_CLOSED": "Đã đóng?",
             "STATUS": "Trạng thái",
             "TYPE": "Loại",
-            "SEVERITY": "Severity",
+            "SEVERITY": "Mức độ nghiêm trọng",
             "PRIORITY": "Ưu tiên",
             "ASSIGNED": "Được phân công",
             "ASSIGNED_TO": "Được phân công cho",
-            "ASSIGNED_USERS": "Assigned users",
+            "ASSIGNED_USERS": "Người dùng được phân công",
             "POINTS": "Điểm",
-            "IS_BLOCKED": "bị chặn",
-            "REF": "Ref",
+            "IS_BLOCKED": "Bị chặn?",
+            "REF": "Tham chiếu",
             "VOTES": "Lượt bình chọn",
             "SPRINT": "Sprint",
-            "DUE_DATE": "Due date",
-            "DUE_DATE_REASON": "Due date reason"
+            "DUE_DATE": "Hạn chót",
+            "DUE_DATE_REASON": "Lý do hạn chót"
         },
         "ROLES": {
-            "ALL": "All points"
+            "ALL": "Tổng điểm"
         },
         "ASSIGNED_TO": {
-            "NOT_ASSIGNED": "Chưa được phân chia",
-            "ASSIGN": "Phân chia",
+            "NOT_ASSIGNED": "Chưa được phân công",
+            "ASSIGN": "Phân công",
             "DELETE_ASSIGNMENT": "Xóa phân công",
-            "REMOVE_ASSIGNED": "Xóa phân chia",
+            "REMOVE_ASSIGNED": "Xóa phân công",
             "TOO_MANY": "...quá nhiều người dùng, tiếp tục lọc",
-            "CONFIRM_UNASSIGNED": "Bạn có chắc không muốn phân chia cho ai?",
-            "TITLE_ACTION_EDIT_ASSIGNMENT": "Chỉnh sửa phân chia",
-            "SELF": "Phân chia cho tôi"
+            "CONFIRM_UNASSIGNED": "Bạn có chắc không muốn phân công cho ai?",
+            "TITLE_ACTION_EDIT_ASSIGNMENT": "Chỉnh sửa phân công",
+            "SELF": "Phân công cho tôi"
         },
         "DUE_DATE": {
-            "TITLE_ACTION_SET_DUE_DATE": "Set due date"
+            "TITLE_ACTION_SET_DUE_DATE": "Đặt hạn chót"
         },
         "ASSIGNED_USERS": {
-            "ADD": "Select assigned user",
-            "ADD_ASSIGNED": "Add assigned",
-            "TITLE_LIGHTBOX_DELETE_ASSIGNED": "Delete assigned..."
+            "ADD": "Chọn người dùng được phân công",
+            "ADD_ASSIGNED": "Phân công cho",
+            "TITLE_LIGHTBOX_DELETE_ASSIGNED": "Xóa người được phân công..."
         },
         "STATUS": {
             "CLOSED": "Đã đóng",
@@ -209,52 +209,52 @@
             "BUTTON_TITLE": "Upvote/Downvote danh mục này",
             "COUNTER_TITLE": "{total, plural, =1{one vote} other{# votes}}"
         },
-        "PROMOTE_TO_US": "Promote to user story",
-        "PROMOTED_ISSUES": "This issue has been promoted to",
-        "PROMOTED_TASKS": "This task has been promoted to",
+        "PROMOTE_TO_US": "Nâng cấp thành user story",
+        "PROMOTED_ISSUES": "Vấn đề này đã được nâng cấp thành",
+        "PROMOTED_TASKS": "Nhiệm vụ này đã được nâng cấp thành",
         "CONFIRM_PROMOTE": {
             "ISSUE": {
-                "TITLE": "Đưa issue này tới nhật kí người dùng mới",
-                "MESSAGE": "Are you sure you want to create a new user story from this issue?"
+                "TITLE": "Đưa issue này tới nhật ký người dùng mới",
+                "MESSAGE": "Bạn có chắc chắn muốn tạo một user story mới từ issue này không?"
             },
             "TASK": {
-                "TITLE": "Promote this task to a new user story",
-                "MESSAGE": "Are you sure you want to create a new user story from this task?"
+                "TITLE": "Nâng cấp nhiệm vụ này thành một user story mới",
+                "MESSAGE": "Bạn có chắc chắn muốn tạo một user story mới từ nhiệm vụ này không?"
             }
         },
         "CUSTOM_ATTRIBUTES": {
             "CUSTOM_FIELDS": "Các trường tùy chỉnh",
-            "SAVE": "Save custom field",
-            "EDIT": "Edit custom field",
-            "DELETE": "Delete custom fields",
-            "CONFIRM_DELETE": "Remember that all values in this custom field will be deleted."
+            "SAVE": "Lưu trường tùy chỉnh",
+            "EDIT": "Chỉnh sửa trường tùy chỉnh",
+            "DELETE": "Xóa các trường tùy chỉnh",
+            "CONFIRM_DELETE": "Lưu ý rằng tất cả giá trị trong trường tùy chỉnh này sẽ bị xóa."
         },
         "FILTERS": {
-            "INPUT_PLACEHOLDER": "subject or reference",
+            "INPUT_PLACEHOLDER": "chủ đề hoặc tham chiếu",
             "TITLE_ACTION_FILTER_BUTTON": "tìm kiếm",
             "TITLE": "Bộ lọc tùy chỉnh",
             "TITLE_ACTION_SEARCH": "Tìm kiếm",
             "ACTION_ADD": "Thêm",
-            "ACTION_SAVE_CUSTOM_FILTER": "save filter",
+            "ACTION_SAVE_CUSTOM_FILTER": "Lưu bộ lọc",
             "PLACEHOLDER_FILTER_NAME": "Đặt tên bộ lọc và nhấn enter",
-            "APPLIED_FILTERS_NUM": "Bộ lọc được áp dụng",
-            "TITLE_ADVANCED_FILTER": "Advanced",
-            "LENGTH_ZERO_ERROR": "Please add a filter name",
-            "REPEATED_FILTER_ERROR": "This filter name is already in use",
+            "APPLIED_FILTERS_NUM": "Số bộ lọc được áp dụng",
+            "TITLE_ADVANCED_FILTER": "Nâng cao",
+            "LENGTH_ZERO_ERROR": "Vui lòng thêm tên bộ lọc",
+            "REPEATED_FILTER_ERROR": "Tên bộ lọc này đã được sử dụng",
             "ADVANCED_FILTERS": {
-                "INCLUDE": "Include",
-                "EXCLUDE": "Exclude",
-                "INCLUDED": "Filtered by:",
-                "EXCLUDED": "Excluded:"
+                "INCLUDE": "Bao gồm",
+                "EXCLUDE": "Loại trừ",
+                "INCLUDED": "Đã bao gồm:",
+                "EXCLUDED": "Đã loại trừ:"
             },
             "CATEGORIES": {
                 "TYPE": "Loại",
                 "STATUS": "Trạng thái",
-                "SEVERITY": "Severity",
+                "SEVERITY": "Mức độ nghiêm trọng",
                 "PRIORITIES": "Ưu tiên",
                 "TAGS": "Thẻ",
                 "ASSIGNED_TO": "Được phân công cho",
-                "ASSIGNED_USERS": "Assigned users",
+                "ASSIGNED_USERS": "Người dùng được phân công",
                 "ROLE": "Vai trò",
                 "CREATED_BY": "Được tạo bởi",
                 "CUSTOM_FILTERS": "Bộ lọc tùy chỉnh",
@@ -409,11 +409,11 @@
         "WORKING_ON_SECTION": "Đang hoạt động",
         "WATCHING_SECTION": "Đang xem",
         "DASHBOARD": "Bảng ghim dự án",
-        "SET_HIDDEN": "Set as hidden",
-        "SET_VISIBLE": "Set as visible",
-        "NO_HIDDEN_ITEMS": "You have no hidden items",
-        "HIDE_HIDDEN": "Do not show hidden objects",
-        "SHOW_HIDDEN": "Show hidden objects"
+        "SET_HIDDEN": "Đặt thành ẩn",
+        "SET_VISIBLE": "Đặt thành hiển thị",
+        "NO_HIDDEN_ITEMS": "Bạn không có mục nào bị ẩn",
+        "HIDE_HIDDEN": "Không hiển thị các đối tượng ẩn",
+        "SHOW_HIDDEN": "Hiển thị các đối tượng ẩn"
     },
     "EPICS": {
         "TITLE": "Tổng quan",
@@ -458,7 +458,7 @@
         "MY_PROJECTS": "Dự án của tôi"
     },
     "ATTACHMENT": {
-        "SECTION_NAME": "Attachments",
+        "SECTION_NAME": "Tệp đính kèm",
         "TITLE": "{{tên file}} được đăng vào {{ngày}}",
         "LIST_VIEW_MODE": "Chế độ xem danh sách",
         "GALLERY_VIEW_MODE": "Chế độ xem bộ sưu tập ảnh",
@@ -476,7 +476,7 @@
         "TITLE_LIGHTBOX_DELETE_ATTACHMENT": "Xóa tập đính kèm",
         "MSG_LIGHTBOX_DELETE_ATTACHMENT": "tập đính kèm '{{fileName}}'",
         "ERROR_DELETE_ATTACHMENT": "Chúng tôi không thể xóa: {{errorMessage}}",
-        "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) is too heavy for the VST Team, try it with a file smaller than ({{maxFileSize}})"
+        "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) quá nặng cho đội VST, hãy thử với tệp nhỏ hơn ({{maxFileSize}})"
     },
     "PAGINATION": {
         "PREVIOUS": "Trước",
@@ -489,9 +489,10 @@
             "TITLE_ACTION_DELETE_TAG": "Xóa thẻ"
         },
         "HELP": "Bạn cần hỗ trợ? Tham khảo trang trợ giúp của chúng tôi!",
-        "PROJECT_DEFAULT_VALUES": {
+        "PROJECT_PRESETS": {
+            "MENU_TITLE": "Cài đặt trước",
             "TITLE": "Giá trị mặc định",
-            "SUBTITLE": "Đặt giá trị mặc định cho tất cả nguồn vào được chọn"
+            "SUBTITLE": "Thiết lập giá trị mặc định cho tất cả các đầu vào lựa chọn."
         },
         "MEMBERSHIPS": {
             "TITLE": "Quản lý thành viên",
@@ -499,7 +500,7 @@
             "ADD_BUTTON": "+ Thêm thành viên mới",
             "ADD_BUTTON_TITLE": "Thêm thành viên mới",
             "UPGRADE_BUTTON": "Upgrade your plan",
-            "LIMIT_USERS_WARNING_MESSAGE_FOR_ADMIN": "If you would like to <strong>add more members</strong>, please contact the project owner <a href='mailto:{{ owner_email }}' title='{{ owner_email }}'>{{ owner_email }}</a>",
+            "LIMIT_USERS_WARNING_MESSAGE_FOR_ADMIN": "Nếu bạn muốn <strong>thêm nhiều thành viên</strong>, vui lòng liên hệ với chủ dự án <a href='mailto:{{ owner_email }}' title='{{ owner_email }}'>{{ owner_email }}</a>",
             "LIMIT_USERS_WARNING_MESSAGE_FOR_OWNER": "Dự án này đã đủ số lượng <strong>({{members}})</strong> thành viên cho phép. Nếu bạn muốn tăng giới hạn thành viên, vui lòng liên hệ với quản trị viên."
         },
         "PROJECT_EXPORT": {
@@ -512,11 +513,11 @@
             "LOADING_MESSAGE": "Vui lòng không đóng trang này",
             "ASYNC_MESSAGE": "Chúng tôi sẽ gửi thư cho bạn khi mọi thứ sẵn sàng",
             "SYNC_MESSAGE": "Nếu không tự động tải xuống, nhấp <a href='{{url}}' download title='Download the dump file'>đây</a>.",
-            "ERROR": "The VST Team has some problems generating your dump. Please try it again.",
-            "ERROR_BUSY": "Sorry, the VST Team is experiencing heavy load right now. Please try again in a few minutes."
+            "ERROR": "Đội VST gặp vấn đề khi tạo bản sao của bạn. Vui lòng thử lại.",
+            "ERROR_BUSY": "Xin lỗi, đội VST đang chịu tải nặng vào lúc này. Vui lòng thử lại sau vài phút."
         },
         "MODULES": {
-            "TITLE": "Mô-đun",
+            "TITLE": "Modules",
             "EPICS": "Epics",
             "EPICS_DESCRIPTION": "Thể hiện bằng hình ảnh và quản lí những phần mang tính chiến lược nhất của dự án của bạn",
             "BACKLOG": "Scrum",
@@ -530,7 +531,7 @@
             "ISSUES": "Issues",
             "ISSUES_DESCRIPTION": "Theo dõi bug, các câu hỏi và cập nhật mới liên quan tới dự án. Đừng bỏ lỡ bất cứ điều gì!",
             "WIKI": "Wiki",
-            "WIKI_DESCRIPTION": "Add, modify, or delete content in collaboration with others. This is the right place for your project's documentation.",
+            "WIKI_DESCRIPTION": "Thêm, sửa đổi hoặc xóa nội dung cùng với người khác. Đây là nơi phù hợp cho tài liệu của dự án của bạn.",
             "MEETUP": "Gặp gỡ",
             "MEETUP_DESCRIPTION": "Lựa chọn hệ thống họp bằng cuộc gọi.",
             "SELECT_VIDEOCONFERENCE": "Lựa chọn hệ thống họp qua cuộc gọi hình ảnh",
@@ -577,9 +578,9 @@
             "DESCRIPTION": "Tải tập tin CSV hoặc sao chép đường dẫn URL và mở bằng phần mềm chỉnh sửa văn bản của bạn hoặc bằng spreadsheet để tạo báo cáo dữ liệu dự án cho riêng bạn. Bạn có thể dùng hình ảnh để thể hiện các dữ liệu và phân tích chúng một cách dễ dàng.",
             "HELP": "Làm thế nào để sử dụng trên spreadsheet của tôi?",
             "REGENERATE_TITLE": "Thay đổi URL",
-            "REGENERATE_SUBTITLE": "You are going to change the CSV data access url. The previous url will be disabled. Are you sure?",
-            "DELETE_TITLE": "Delete URL",
-            "DELETE_SUBTITLE": "You are going to delete the current CSV data access url. Are you sure?"
+            "REGENERATE_SUBTITLE": "Bạn sắp thay đổi URL truy cập dữ liệu CSV. URL trước đó sẽ bị vô hiệu hóa. Bạn có chắc chắn không?",
+            "DELETE_TITLE": "Xóa URL",
+            "DELETE_SUBTITLE": "Bạn sắp xóa URL truy cập dữ liệu CSV hiện tại. Bạn có chắc chắn không?"
         },
         "CSV": {
             "SECTION_TITLE_EPIC": "Báo cáo epic",
@@ -634,12 +635,12 @@
         "PROJECT_VALUES_SEVERITIES": {
             "TITLE": "Điều kiện nghiêm khắc",
             "SUBTITLE": "Xác định những điều kiện nghiêm khắc mà issues của bạn sẽ gặp",
-            "ISSUE_TITLE": "Issue severities",
+            "ISSUE_TITLE": "Mức độ nghiêm trọng của vấn đề",
             "ACTION_ADD": "Thêm severity mới"
         },
         "PROJECT_VALUES_STATUS": {
             "TITLE": "Trạng thái",
-            "SUBTITLE": "Add, remove or edit the color and name of the statuses your epics, user stories, task and issues will go through.",
+            "SUBTITLE": "Thêm, xóa hoặc chỉnh sửa màu sắc và tên của các trạng thái mà epic, user story, nhiệm vụ và vấn đề của bạn sẽ trải qua.",
             "EPIC_TITLE": "Trạng thái của Epic",
             "US_TITLE": "Trạng thái nhật kí người dùng",
             "TASK_TITLE": "Trạng thái nhiệm vụ",
@@ -663,35 +664,35 @@
             "SELECTED": "Đã được chọn"
         },
         "PROJECT_DUE_DATE_STATUS": {
-            "TITLE": "Due Dates",
-            "SUBTITLE": "Specify the due dates status your user stories, tasks and issues will go through if selected",
-            "US_TITLE": "User Story Due Date status",
+            "TITLE": "Hạn chót",
+            "SUBTITLE": "Chỉ định trạng thái hạn chót mà user story, nhiệm vụ và vấn đề của bạn sẽ trải qua nếu được chọn",
+            "US_TITLE": "Trạng thái hạn chót của User Story",
             "ACTION_ADD_STATUS": "Thêm trạng thái mới",
-            "TASK_TITLE": "Task Due Date status",
-            "ISSUE_TITLE": "Issue Due Date status",
-            "DAYS_TO_DUE_DATE": "Days to due date",
-            "BEFORE_AFTER": "Before/after",
-            "BEFORE": "Before",
-            "AFTER": "Past"
+            "TASK_TITLE": "Trạng thái hạn chót của Nhiệm vụ",
+            "ISSUE_TITLE": "Trạng thái hạn chót của Vấn đề",
+            "DAYS_TO_DUE_DATE": "Số ngày đến hạn chót",
+            "BEFORE_AFTER": "Trước/sau",
+            "BEFORE": "Trước",
+            "AFTER": "Quá hạn"
         },
         "PROJECT_KANBAN_OPTIONS": {
-            "TITLE": "Kanban options",
-            "SUBTITLE": "Enable swimlanes to use in your workflow and set WIP limits to restrict the maximun number of user stories on each status.",
-            "SWIMLANES": "Swimlanes",
-            "ACTION_ADD_SWIMLANE": "New swimlane",
-            "SWIMLANE_NAME_EXISTS": "This swimlane name already exists",
-            "NO_SWIMLANES": "There are no swimlanes yet",
-            "SWIMLANE_NAME": "Swimlane name",
-            "POPUP_NEW_SWIMLANE": "If you had some user stories created, you will find them on this swimlane.",
-            "WIP_LIMITS": "WIP LIMITS",
-            "WIP_LIMIT_PLACEHOLDER": "WIP limit not set",
-            "WIP_LIMIT_INPUT": "Set WIP limit",
-            "DEFAULT": "Default"
+            "TITLE": "Tùy chọn Kanban",
+            "SUBTITLE": "Kích hoạt swimlane để sử dụng trong quy trình làm việc của bạn và đặt giới hạn WIP để hạn chế số lượng tối đa user stories ở mỗi trạng thái.",
+            "SWIMLANES": "Swimlane",
+            "ACTION_ADD_SWIMLANE": "Swimlane mới",
+            "SWIMLANE_NAME_EXISTS": "Tên swimlane này đã tồn tại",
+            "NO_SWIMLANES": "Chưa có swimlane nào",
+            "SWIMLANE_NAME": "Tên swimlane",
+            "POPUP_NEW_SWIMLANE": "Nếu bạn đã tạo một số user stories, bạn sẽ tìm thấy chúng trên swimlane này.",
+            "WIP_LIMITS": "GIỚI HẠN WIP",
+            "WIP_LIMIT_PLACEHOLDER": "Giới hạn WIP chưa được thiết lập",
+            "WIP_LIMIT_INPUT": "Đặt giới hạn WIP",
+            "DEFAULT": "Mặc định"
         },
         "ROLES": {
             "PAGE_TITLE": "Vai trò - {{projectName}}",
             "WARNING_NO_ROLE": "Chú ý, không vị trí nào trong dự án có thể ước tính giá trị điểm cho nhật kí người dùng",
-            "HELP_ROLE_ENABLED": "This role is part of the roles involved in estimating user story points.",
+           "HELP_ROLE_ENABLED": "Vai trò này là một phần trong các vai trò liên quan đến việc ước lượng điểm cho user story.",
             "DISABLE_COMPUTABLE_ALERT_TITLE": "Bạn có chắc muốn vô hiệu hóa chức năng ước tính của vị trí này?",
             "DISABLE_COMPUTABLE_ALERT_SUBTITLE": "Nếu bạn tắt quyền ước tính cho vị trí {{roleName}} thì mọi ước tính mà vị trí này thực hiện trước đó sẽ bị xóa",
             "COUNT_MEMBERS": "{{ role.members_count }} những thành viên với vị trí này",
@@ -704,8 +705,8 @@
         },
         "THIRD_PARTIES": {
             "SECRET_KEY": "Chìa khóa bí mật",
-            "PAYLOAD_URL": "Payload URL",
-            "VALID_IPS": "Valid source IPs (separated by ,)"
+            "PAYLOAD_URL": "URL payload",
+            "VALID_IPS": "Các địa chỉ IP nguồn hợp lệ (phân tách bằng dấu ,)"
         },
         "BITBUCKET": {
             "SECTION_NAME": "Bitbucket",
@@ -753,14 +754,14 @@
         "CUSTOM_ATTRIBUTES": {
             "PAGE_TITLE": "{{sectionName}} - Đặc tính tùy chỉnh - {{projectName}}",
             "ADD": "Thêm trường tùy chỉnh",
-            "EDIT": "Edit custom field",
-            "DELETE": "Delete custom field",
-            "SAVE_TITLE": "Save custom field",
+            "EDIT": "Chỉnh sửa trường tùy chỉnh",
+            "DELETE": "Xóa trường tùy chỉnh",
+            "SAVE_TITLE": "Lưu trường tùy chỉnh",
             "CANCEL_TITLE": "Hủy tạo mới",
             "SET_FIELD_NAME": "Thiết lập tên trường tùy chỉnh của bạn",
             "SET_FIELD_DESCRIPTION": "Thiết lập mô tả trường tùy chỉnh",
             "FIELD_TYPE_DEFAULT": "-- chọn một --",
-            "ACTION_UPDATE": "Update custom field",
+            "ACTION_UPDATE": "Cập nhật trường tùy chỉnh",
             "ACTION_CANCEL_EDITION": "Hủy chỉnh sửa"
         },
         "MEMBERSHIP": {
@@ -812,12 +813,12 @@
             "STATUS": "Trạng thái",
             "POINTS": "Điểm",
             "PRIORITIES": "Ưu tiên",
-            "SEVERITIES": "Severities",
+            "SEVERITIES": "Mức độ nghiêm trọng",
             "TYPES": "Loại",
             "CUSTOM_FIELDS": "Các trường tùy chỉnh",
             "TAGS": "Thẻ",
-            "DUE_DATES": "Due dates",
-            "KANBAN_OPTIONS": "Kanban options"
+            "DUE_DATES": "Hạn chót",
+            "KANBAN_OPTIONS": "Tùy chọn Kanban"
         },
         "SUBMENU_ROLES": {
             "TITLE": "Vai trò",
@@ -891,7 +892,7 @@
     },
     "PROJECT": {
         "PAGE_TITLE": "{{Tên dự án}}",
-        "HELP": "Reorder your projects to set at the top the most used ones.<br/> The top 4 projects will appear in the top navigation bar project list",
+        "HELP": "Sắp xếp lại các dự án của bạn để đưa những dự án thường sử dụng nhất lên đầu.<br/> 4 dự án hàng đầu sẽ xuất hiện trong danh sách dự án trên thanh điều hướng ở trên.",
         "PRIVATE": "Dự án riêng tư",
         "LOOKING_FOR_PEOPLE": "Dự án này đang cần thêm thành viên",
         "FANS_COUNTER_TITLE": "{total, plural, =1{one fan} other{# fans}}",
@@ -914,28 +915,28 @@
             "MEETUP": "Meetup",
             "SETTINGS": "Cài đặt",
             "SCRUM": "Scrum",
-            "COLLAPSE_MENU": "collapse menu"
+            "COLLAPSE_MENU": "Đóng/Mở Menu"
         },
         "NAVIGATION": {
             "PROJECTS": "Dự án",
-            "ACCOUNT_SETTINGS": "Account settings",
-            "ACTION_CREATE_PROJECT": "New project",
-            "ACTION_CREATE_PROJECT_FIRST": "Create your first project",
-            "ACTION_CREATE_PROJECT_FIRST_TEXT": "You don’t have any projects yet. Create one now, invite your team and start using VST Team to the fullest.",
-            "VIEW_ALL_PROJECTS": "View all projects",
-            "MANAGE_PROJECTS": "Quản lí dự án",
+            "ACCOUNT_SETTINGS": "Cài đặt tài khoản",
+            "ACTION_CREATE_PROJECT": "Tạo dự án mới",
+            "ACTION_CREATE_PROJECT_FIRST": "Tạo dự án đầu tiên của bạn",
+            "ACTION_CREATE_PROJECT_FIRST_TEXT": "Bạn chưa có dự án nào. Tạo một cái ngay bây giờ, mời nhóm của bạn và bắt đầu sử dụng VST Team một cách tối đa.",
+            "VIEW_ALL_PROJECTS": "Xem tất cả dự án",
+            "MANAGE_PROJECTS": "Quản lý dự án",
             "TITLE_CREATE_PROJECT": "Tạo dự án",
             "HELP_TITLE": "Trợ giúp",
             "HOMEPAGE": "Trang chủ",
-            "VST Team_RESOURCES_TITLE": "Go to VST Team resources",
-            "VST Team_RESOURCES": "VST Team Resources",
-            "FEEDBACK_TITLE": "Write to us with your feedback",
-            "FEEDBACK": "Ask a question",
+            "VST Team_RESOURCES_TITLE": "Đi tới tài nguyên VST Team",
+            "VST Team_RESOURCES": "Tài nguyên VST Team",
+            "FEEDBACK_TITLE": "Viết cho chúng tôi với phản hồi của bạn",
+            "FEEDBACK": "Đặt câu hỏi",
             "NOTIFICATIONS_TITLE": "Chỉnh sửa cài đặt thông báo",
             "NOTIFICATIONS": "Thông báo",
             "VIEW_PROFILE_TITLE": "Xem trang cá nhân",
             "VIEW_PROFILE": "Xem trang cá nhân",
-            "EDIT_PROFILE": "Chỉnh sửa thông tin cá nhân",
+            "EDIT_PROFILE": "Chỉnh sửa thông tin",
             "USER_SETTINGS": "Cài đặt người dùng",
             "CHANGE_PASSWORD_TITLE": "Đổi mật khẩu",
             "CHANGE_PASSWORD": "Đổi mật khẩu",
@@ -976,7 +977,7 @@
             "TEMPLATE_SCRUM_LONGDESC": "Scrum là một phương pháp phát triển phần mềm nhanh chóng và tiện lợi cho việc quản lý phát triển sản phẩm.\nCác sản phẩm backlog là những sản phẩm sau cùng được chuyển giao, đặt trong thứ tự mà những sản phẩm đó phải được chuyển giao. Backlogs sản phẩm được chia thành từng phần nhỏ dễ quản lí và thực hiện có tên là sprint. Mỗi khoản thời gian nhất định của nhóm sẽ khởi động một sprint mới và cam kết để chuyển một số lượng nhật kí người dùng nhất định từ backlog, phù hợp với kỹ năng, khả năng và nguồn lực của mình. Dự án sẽ phát triển khi các backlog ít dần.",
             "TEMPLATE_KANBAN": "Kanban",
             "TEMPLATE_KANBAN_DESC": "Giữ một quy trình làm việc liên tục trên các nhiệm vụ độc lập",
-            "TEMPLATE_KANBAN_LONGDESC": "Phương pháp Kanban được sử dụng để phân chia quá trình hoàn thành dự án (bất cứ loại dự án nào) thành các giai đoạn nhỏ.\nThẻ Kanban giống như một thẻ mục lục hoặc một giấy ghi chú liệt kê chi tiết các nhiệm vụ (hoặc nhật ký người dùng) trong một dự án cần phải hoàn thành. Bảng Kanban được sử dụng để chuyển mỗi thẻ từ một giai đoạn này sang giai đoạn kế tiếp, giúp theo dõi tiến độ dự án.",
+            "TEMPLATE_KANBAN_LONGDESC": "Phương pháp Kanban được sử dụng để phân công quá trình hoàn thành dự án (bất cứ loại dự án nào) thành các giai đoạn nhỏ.\nThẻ Kanban giống như một thẻ mục lục hoặc một giấy ghi chú liệt kê chi tiết các nhiệm vụ (hoặc nhật ký người dùng) trong một dự án cần phải hoàn thành. Bảng Kanban được sử dụng để chuyển mỗi thẻ từ một giai đoạn này sang giai đoạn kế tiếp, giúp theo dõi tiến độ dự án.",
             "DUPLICATE": "Sao chép dự án",
             "DUPLICATE_DESC": "Bắt đầu dọn dẹp và giữ những số liệu của bạn",
             "IMPORT": "Nhập dự án",
@@ -992,8 +993,8 @@
         },
         "COMMON": {
             "DETAILS": "Thông tin mới về dự án",
-            "PROJECT_TITLE": "Project Name (Required)",
-            "PROJECT_DESCRIPTION": "Project Description (Required)"
+            "PROJECT_TITLE": "Tên dự án (Bắt buộc)",
+            "PROJECT_DESCRIPTION": "Mô tả dự án (Bắt buộc)"
         },
         "DUPLICATE": {
             "TITLE": "Sao chép dự án",
@@ -1003,28 +1004,28 @@
         "IMPORT": {
             "TITLE": "Nhập dự án",
             "DESCRIPTION": "Nhập dự án của bạn từ nền tảng khác vào VST Team",
-            "ASYNC_IN_PROGRESS_TITLE": "The VST Team is importing your project",
+            "ASYNC_IN_PROGRESS_TITLE": "Đội VST đang nhập dự án của bạn",
             "ASYNC_IN_PROGRESS_MESSAGE": "Quá trình này có thể mất vài phút <br/> Chúng tôi sẽ gửi email cho bạn khi sẵn sàng",
-            "UPLOAD_IN_PROGRESS_MESSAGE": "Tin tải lên {{uploadedSize}} của {{totalSize}}",
-            "ERROR": "The VST Team has some problems importing your dump data. Please try again.",
-            "ERROR_TOO_MANY_REQUEST": "Sorry, the VST Team is experiencing heavy load right now. Please try again in a few minutes.",
-            "ERROR_MESSAGE": "The VST Team has some problems importing your dump data: {{error_message}}",
-            "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) is too heavy for the VST Team, try it with a file smaller than ({{maxFileSize}})",
-            "SYNC_SUCCESS": "Dự án của bạn được nhập thành công",
+            "UPLOAD_IN_PROGRESS_MESSAGE": "Đang tải lên {{uploadedSize}} của {{totalSize}}",
+            "ERROR": "Đội VST gặp vấn đề khi nhập dữ liệu của bạn. Vui lòng thử lại.",
+            "ERROR_TOO_MANY_REQUEST": "Xin lỗi, đội VST đang chịu tải nặng vào lúc này. Vui lòng thử lại sau vài phút.",
+            "ERROR_MESSAGE": "Đội VST gặp vấn đề khi nhập dữ liệu của bạn: {{error_message}}",
+            "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) quá nặng cho đội VST, hãy thử với tệp nhỏ hơn ({{maxFileSize}})",
+            "SYNC_SUCCESS": "Dự án của bạn đã được nhập thành công",
             "IMPORT": "Nhập",
-            "WHO_IS": "Nhiệm vụ sẽ được phân chia cho...",
+            "WHO_IS": "Nhiệm vụ sẽ được phân công cho...",
             "WRITE_EMAIL": "Hoặc nếu bạn muốn, hãy viết thư được sử dụng trong VST Team",
             "SEARCH_CONTACT": "Hoặc nếu bạn muốn, tìm kiếm trong liên lạc của bạn",
             "WRITE_EMAIL_LABEL": "Viết email sử dụng trong VST Team",
-            "ACCEEDE": "Access",
+            "ACCEEDE": "Truy cập",
             "PROJECT_MEMBERS": "Thành viên dự án",
-            "PROCESS_DESCRIPTION": "Tell us to whom from VST Team you want to assign the tasks of {{platform}}",
+            "PROCESS_DESCRIPTION": "Cho chúng tôi biết ai từ đội VST mà bạn muốn giao nhiệm vụ cho {{platform}}",
             "MATCH": "Đây có phải <strong>{{user_external}}</strong> là cùng một người với <strong>{{user_internal}}</strong>?",
             "CHOOSE": "Lựa chọn người dùng",
             "LINKS": "Liên kết với {{platform}}",
-            "LINKS_DESCRIPTION": "Bạn có muốn tiếp tục liên kết của từng hạng mục với thẻ {{platform}} gốc?",
-            "WARNING_MAIL_USER": "Note that if the user does not have a VST Team account we will not be able to assign the tasks to them.",
-            "ASSIGN": "Phân chia",
+            "LINKS_DESCRIPTION": "Bạn có muốn tiếp tục liên kết của từng hạng mục với thẻ {{platform}} gốc không?",
+            "WARNING_MAIL_USER": "Lưu ý rằng nếu người dùng không có tài khoản VST Team, chúng tôi sẽ không thể giao nhiệm vụ cho họ.",
+            "ASSIGN": "Phân công",
             "PROJECT_SELECTOR": {
                 "NO_RESULTS": "Có vẻ như không tìm ra kết quả nào với tiêu chí tìm kiếm của bạn",
                 "ACTION_SEARCH": "tìm kiếm",
@@ -1062,11 +1063,11 @@
                 "DESCRIPTION": "Quá trình này có thể mất thời gian, xin vui lòng giữ cửa sổ mở."
             },
             "WARNING": {
-                "TITLE": "Một số nhiệm vụ sẽ không được phân chia",
-                "DESCRIPTION": "Vẫn có những thành viên không xác định. Các thẻ được gán cho những thành viên này vẫn chưa được phân chia. Kiểm tra tất cả các địa chỉ liên lạc để không bị mất thông tin.",
+                "TITLE": "Một số nhiệm vụ sẽ không được phân công",
+                "DESCRIPTION": "Vẫn có những thành viên không xác định. Các thẻ được gán cho những thành viên này vẫn chưa được phân công. Kiểm tra tất cả các địa chỉ liên lạc để không bị mất thông tin.",
                 "CHECK": "Kiểm tra liên lạc"
             },
-            "VST Team": {
+            "TAIGA": {
                 "SELECTOR": "Nhập dự án VST Team"
             },
             "TRELLO": {
@@ -1110,6 +1111,18 @@
                 "CREATE_NEW_ISSUES": "Chuyển đổi sub-issue thành issue mới ở VST Team",
                 "NOT_CREATE_NEW_ISSUES": "Không nhập các sub-issues"
             }
+        },
+        "NEWSLETTER_OPENING": {
+            "LIGHTBOX_TITLE": "Bạn có muốn nhận thông báo về VST Team không?",
+            "CONFIRMATION": "Có, hãy gửi cho tôi tin tức, cập nhật sản phẩm và các gợi ý về VST Team.",
+            "NO_SHARE": "Chúng tôi coi trọng quyền riêng tư của bạn (xem <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Đi tới chính sách bảo mật\" target=\"_blank\">chính sách bảo mật</a> của chúng tôi).",
+            "OPT_OUT": "Chúng tôi chỉ gửi email liên quan cho bạn (<6 lần mỗi năm). Bạn có thể hủy đăng ký bất cứ lúc nào bằng cách gửi email đến <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> với tiêu đề “hủy đăng ký” hoặc thông qua liên kết trong bất kỳ bản tin nào của chúng tôi.",
+            "DONT_ASK": "Không hỏi lại",
+            "SAVE_PREFERENCE": "LƯU TÙY CHỌN",
+            "NOTIFY_EXPLANATION": "Chúng tôi sẽ gửi cho bạn tin tức, cập nhật sản phẩm và gợi ý về VST Team.",
+            "SUBSCRIBE": "Đăng ký",
+            "SUBSCRIBED": "Bạn đã đăng ký",
+            "SAVED_PREFERENCE": "Tùy chọn của bạn đã được lưu thành công"
         }
     },
     "LIGHTBOX": {
@@ -1145,13 +1158,13 @@
             "HELP_TEXT": "Nếu người dùng đã được đăng kí trên VST Team, họ sẽ được tự động thêm vào. Nếu không, họ sẽ nhận được thư mời."
         },
         "FEEDBACK": {
-            "TITLE": "Ask a question",
-            "COMMENT": "Leave us a message",
-            "ACTION_SEND": "Send Message",
-            "YOU_CAN_ALSO": "You can also:",
-            "CREATE": "Create an issue on this",
-            "PUBLIC": "public VST Team project",
-            "EMAIL": "Send us a e-mail directly to",
+            "TITLE": "Hỏi một câu hỏi",
+            "COMMENT": "Để lại cho chúng tôi một tin nhắn",
+            "ACTION_SEND": "Gửi tin nhắn",
+            "YOU_CAN_ALSO": "Bạn cũng có thể:",
+            "CREATE": "Tạo một vấn đề về điều này",
+            "PUBLIC": "dự án công khai của VST Team",
+            "EMAIL": "Gửi email trực tiếp cho chúng tôi đến",
             "SUPPORT": "pm@vietstock.vn"
         },
         "SEARCH": {
@@ -1168,42 +1181,42 @@
             "LAST_SPRINT_NAME": "sprint cuối cùng là <strong> {{lastSprint}} ;-) </strong>"
         },
         "CREATE_EDIT": {
-            "TASK_PLACEHOLDER_DESCRIPTION": "Please add descriptive text to help others better understand this task",
-            "ISSUE_PLACEHOLDER_DESCRIPTION": "Please add descriptive text to help others better understand this issue",
-            "US_PLACEHOLDER_DESCRIPTION": "Please add descriptive text to help others better understand this user story",
+            "TASK_PLACEHOLDER_DESCRIPTION": "Vui lòng thêm văn bản mô tả để giúp người khác hiểu rõ hơn về nhiệm vụ này",
+            "ISSUE_PLACEHOLDER_DESCRIPTION": "Vui lòng thêm văn bản mô tả để giúp người khác hiểu rõ hơn về vấn đề này",
+            "US_PLACEHOLDER_DESCRIPTION": "Vui lòng thêm văn bản mô tả để giúp người khác hiểu rõ hơn về nhật ký người dùng này",
             "NEW_TASK": "Công việc mới",
-            "NEW_ISSUE": "New issue",
-            "NEW_US": "Nhật kí người dùng mới",
+            "NEW_ISSUE": "Issue mới",
+            "NEW_US": "Nhật ký người dùng mới",
             "EDIT_TASK": "Chỉnh sửa nhiệm vụ",
-            "EDIT_ISSUE": "Edit issue",
-            "EDIT_US": "Chỉnh sửa nhật kí người dùng",
-            "ADD_EXISTING_ISSUE": "Add issue to {{ targetName }}",
+            "EDIT_ISSUE": "Chỉnh sửa issue",
+            "EDIT_US": "Chỉnh sửa nhật ký người dùng",
+            "ADD_EXISTING_ISSUE": "Thêm issue vào {{ targetName }}",
             "CONFIRM_CLOSE": "Bạn có chắc muốn đóng chế độ chỉnh sửa?",
-            "EXISTING_ISSUE": "Existing issue",
-            "CHOOSE_EXISTING_ISSUE": "Which issue?",
-            "ADD_ISSUE": "Add issue",
-            "FILTER_ISSUES": "Filter issues",
+            "EXISTING_ISSUE": "Issue hiện có",
+            "CHOOSE_EXISTING_ISSUE": "Issue nào?",
+            "ADD_ISSUE": "Thêm issue",
+            "FILTER_ISSUES": "Lọc issues",
             "SWIMLANE": "Swimlane",
-            "SELECT_SWIMLANE": "Select swimlane",
-            "SELECT_STATUS": "Select status",
-            "DEFAULT": "Default",
-            "ERROR_STATUS": "Changes cannot be saved because there is a problem with the selected status.",
-            "ERROR_SWIMLANE": "Changes cannot be saved because there is a problem with the selected swimlane."
+            "SELECT_SWIMLANE": "Chọn swimlane",
+            "SELECT_STATUS": "Chọn trạng thái",
+            "DEFAULT": "Mặc định",
+            "ERROR_STATUS": "Thay đổi không thể được lưu vì có vấn đề với trạng thái đã chọn.",
+            "ERROR_SWIMLANE": "Thay đổi không thể được lưu vì có vấn đề với swimlane đã chọn."
         },
         "DISABLE_KANBAN": {
-            "TITLE": "Disable kanban",
-            "MESSAGE": "This project has swimlanes. They will be gone but your user stories will not be deleted"
+            "TITLE": "Vô hiệu hóa kanban",
+            "MESSAGE": "Dự án này có swimlanes. Chúng sẽ biến mất nhưng các nhật ký người dùng của bạn sẽ không bị xóa."
         },
         "DELETE_DUE_DATE": {
-            "TITLE": "Delete due date",
-            "SUBTITLE": "Are you sure you want to delete this due date?"
+            "TITLE": "Xóa hạn cuối",
+            "SUBTITLE": "Bạn có chắc muốn xóa hạn cuối này không?"
         },
         "DELETE_SPRINT": {
             "TITLE": "Xóa sprint"
         },
         "REMOVE_RELATIONSHIP_WITH_EPIC": {
-            "TITLE": "Remove relationship with epic",
-            "MESSAGE": "Are you sure you want to remove the relationship of this user story with its epic <strong>{{epicSubject}}</strong>?"
+            "TITLE": "Xóa mối quan hệ với epic",
+            "MESSAGE": "Bạn có chắc muốn xóa mối quan hệ của nhật ký người dùng này với epic <strong>{{epicSubject}}</strong> không?"
         },
         "CREATE_MEMBER": {
             "PLACEHOLDER_INVITATION_TEXT": "(Tùy chọn) Thêm tin nhắn vào thư mời. Đưa ra lời mời dễ thương để mời thành viên mới tham gia ;-)",
@@ -1234,94 +1247,106 @@
             "SEND": "Gửi"
         },
         "SET_DUE_DATE": {
-            "TITLE": "Set due date",
-            "PLACEHOLDER_DUE_DATE": "Select date",
-            "REASON_FOR_DUE_DATE": "Reason for the due date",
-            "PLACEHOLDER_REASON_FOR_DUE_DATE": "Why does this user story need a due date?",
+            "TITLE": "Thiết lập hạn cuối",
+            "PLACEHOLDER_DUE_DATE": "Chọn ngày",
+            "REASON_FOR_DUE_DATE": "Lý do cho hạn cuối",
+            "PLACEHOLDER_REASON_FOR_DUE_DATE": "Tại sao nhật ký người dùng này cần một hạn cuối?",
             "SUGGESTIONS": {
-                "IN_ONE_WEEK": "In one week",
-                "IN_TWO_WEEKS": "In two weeks",
-                "IN_ONE_MONTH": "In one month",
-                "IN_THREE_MONTHS": "In three months"
+                "IN_ONE_WEEK": "Trong một tuần",
+                "IN_TWO_WEEKS": "Trong hai tuần",
+                "IN_ONE_MONTH": "Trong một tháng",
+                "IN_THREE_MONTHS": "Trong ba tháng"
             },
-            "TITLE_ACTION_DELETE_DUE_DATE": "Delete due date"
+            "TITLE_ACTION_DELETE_DUE_DATE": "Xóa hạn cuối"
         },
         "ADMIN_DUE_DATES": {
-            "TITLE_ACTION_DELETE_DUE_DATE": "Delete due date",
-            "SUBTITLE_ACTION_DELETE_DUE_DATE": "Are you sure you want to delete the due date status {{due_date_status_name}}?"
+            "TITLE_ACTION_DELETE_DUE_DATE": "Xóa hạn cuối",
+            "SUBTITLE_ACTION_DELETE_DUE_DATE": "Bạn có chắc muốn xóa trạng thái hạn cuối {{due_date_status_name}} không?"
         },
         "ADMIN_KANBAN_POWERUPS": {
-            "TITLE_ACTION_DELETE_SWIMLANE": "Delete swimlane",
-            "SUBTITLE_ACTION_DELETE_SWIMLANE_OPTIONS": "Are you sure you want to delete {{swimlane}}?",
-            "SUBTITLE_ACTION_DELETE_SWIMLANE_REPLACEMENT": "All the user stories on this swimlane will be moved to:",
-            "SUBTITLE_ACTION_DELETE_SWIMLANE_LAST": "Your user stories will not be deleted. They will remain in the kanban.",
-            "DEFAULT_SWIMLANE": "New user stories will be in this swimlane by default",
-            "SET_DEFAULT_SWIMLANE": "Set this swimlane as default",
-            "DISABLE_DELETE_SWIMLANE": "The default swimlane cannot be deleted"
+            "TITLE_ACTION_DELETE_SWIMLANE": "Xóa swimlane",
+            "SUBTITLE_ACTION_DELETE_SWIMLANE_OPTIONS": "Bạn có chắc muốn xóa {{swimlane}} không?",
+            "SUBTITLE_ACTION_DELETE_SWIMLANE_REPLACEMENT": "Tất cả các nhật ký người dùng trên swimlane này sẽ được chuyển đến:",
+            "SUBTITLE_ACTION_DELETE_SWIMLANE_LAST": "Các nhật ký người dùng của bạn sẽ không bị xóa. Chúng sẽ vẫn ở trong kanban.",
+            "DEFAULT_SWIMLANE": "Các nhật ký người dùng mới sẽ nằm trong swimlane này theo mặc định",
+            "SET_DEFAULT_SWIMLANE": "Đặt swimlane này làm mặc định",
+            "DISABLE_DELETE_SWIMLANE": "Swimlane mặc định không thể bị xóa"
         },
         "RELATE_TO_EPIC": {
-            "TITLE": "Link to epic",
-            "EXISTING_EPIC": "Existing epic",
-            "NEW_EPIC": "New epic",
+            "TITLE": "Liên kết với epic",
+            "EXISTING_EPIC": "Epic hiện có",
+            "NEW_EPIC": "Epic mới",
             "CHOOSE_PROJECT_FOR_CREATION": "Đây là dự án gì?",
             "CHOOSE_PROJECT_FROM": "Đây là dự án gì?",
-            "SUBJECT": "Subject",
-            "CHOOSE_EPIC": "What's the epic?",
-            "FILTER_EPICS": "Filter epics",
+            "SUBJECT": "Chủ đề",
+            "CHOOSE_EPIC": "Epic nào?",
+            "FILTER_EPICS": "Lọc epic",
             "NO_EPICS_FOUND": "Có vẻ như không tìm ra kết quả nào với tiêu chí tìm kiếm của bạn"
+        },
+        "NEWSLETTER_OPENING": {
+            "LIGHTBOX_TITLE": "Bạn có muốn nhận thông báo về VST Team không?",
+            "CONFIRMATION": "Có, hãy gửi cho tôi tin tức, cập nhật sản phẩm và các gợi ý về VST Team.",
+            "NO_SHARE": "Chúng tôi coi trọng quyền riêng tư của bạn (xem <a href=\"https://www.VST Team.io/privacy-policy\" title=\"Đi tới chính sách bảo mật\" target=\"_blank\">chính sách bảo mật</a> của chúng tôi).",
+            "OPT_OUT": "Chúng tôi chỉ gửi email liên quan cho bạn (<6 lần mỗi năm). Bạn có thể hủy đăng ký bất cứ lúc nào bằng cách gửi email đến <a href=\"mailto:support@VST Team.io\" target=\"_blank\">support@VST Team.io</a> với tiêu đề “hủy đăng ký” hoặc thông qua liên kết trong bất kỳ bản tin nào của chúng tôi.",
+            "DONT_ASK": "Không hỏi lại",
+            "SAVE_PREFERENCE": "LƯU TÙY CHỌN",
+            "NOTIFY_EXPLANATION": "Chúng tôi sẽ gửi cho bạn tin tức, cập nhật sản phẩm và gợi ý về VST Team.",
+            "SUBSCRIBE": "Đăng ký",
+            "SUBSCRIBED": "Bạn đã đăng ký",
+            "SAVED_PREFERENCE": "Tùy chọn của bạn đã được lưu thành công"
         }
     },
     "EPIC": {
         "PAGE_TITLE": "{{epicSubject}} - Epic {{epicRef}} - {{projectName}}",
-        "PAGE_DESCRIPTION": "Trạng thái: {{epicStatus }}. Mô tả: {{epicDescription}}",
-        "EPIC_COLOR": "Epic color:",
+        "PAGE_DESCRIPTION": "Trạng thái: {{epicStatus}}. Mô tả: {{epicDescription}}",
+        "EPIC_COLOR": "Màu của Epic:",
         "SECTION_NAME": "Epic",
         "ERROR_UNLINK_RELATED_USERSTORY": "Chúng tôi không thể ngắt đường dẫn: {{errorMessage}}",
         "CREATE_RELATED_USERSTORIES": "Tạo mối quan hệ với",
-        "NEW_USERSTORY": "Nhật kí người dùng mới",
-        "EXISTING_USERSTORY": "Nhật kí người dùng sẵn có",
-        "CHOOSE_PROJECT_FOR_CREATION": "Which project?",
-        "SUBJECT": "Subject",
-        "SUBJECT_BULK_MODE": "Subject (chèn thêm bulk)",
-        "CHOOSE_PROJECT_FROM": "Which project?",
-        "CHOOSE_USERSTORY": "Which user story?",
-        "NO_USERSTORIES": "This project has no user stories yet. Please select another project.",
+        "NEW_USERSTORY": "Nhật ký người dùng mới",
+        "EXISTING_USERSTORY": "Nhật ký người dùng sẵn có",
+        "CHOOSE_PROJECT_FOR_CREATION": "Dự án nào?",
+        "SUBJECT": "Chủ đề",
+        "SUBJECT_BULK_MODE": "Chủ đề (chèn thêm bulk)",
+        "CHOOSE_PROJECT_FROM": "Dự án nào?",
+        "CHOOSE_USERSTORY": "Nhật ký người dùng nào?",
+        "NO_USERSTORIES": "Dự án này chưa có nhật ký người dùng nào. Vui lòng chọn dự án khác.",
         "NO_USERSTORIES_FOUND": "Có vẻ như không tìm ra kết quả nào với tiêu chí tìm kiếm của bạn",
-        "FILTER_USERSTORIES": "Lọc nhật kí người dùng",
+        "FILTER_USERSTORIES": "Lọc nhật ký người dùng",
         "LIGHTBOX_TITLE_BLOKING_EPIC": "Chặn epic",
         "ACTION_DELETE": "Xóa epic"
     },
     "US": {
-        "PAGE_TITLE": "{{userStorySubject}} - Nhật kí người dùng {{userStoryRef}} - {{projectName}}",
-        "PAGE_DESCRIPTION": "Trạng thái: {{userStoryStatus }}. Hoàn thành {{userStoryProgressPercentage}}% ({{userStoryClosedTasks}} của {{userStoryTotalTasks}} tasks closed). Điểm: {{userStoryPoints}}. Mô tả: {{userStoryDescription}}",
-        "SECTION_NAME": "Nhật kí người dùng",
+        "PAGE_TITLE": "{{userStorySubject}} - Nhật ký người dùng {{userStoryRef}} - {{projectName}}",
+        "PAGE_DESCRIPTION": "Trạng thái: {{userStoryStatus}}. Hoàn thành {{userStoryProgressPercentage}}% ({{userStoryClosedTasks}} trong số {{userStoryTotalTasks}} nhiệm vụ đã đóng). Điểm: {{userStoryPoints}}. Mô tả: {{userStoryDescription}}",
+        "SECTION_NAME": "Nhật ký người dùng",
         "LINK_TASKBOARD": "Bảng nhiệm vụ",
         "TITLE_LINK_TASKBOARD": "Đi tới bảng nhiệm vụ",
         "TOTAL_POINTS": "Tổng điểm",
-        "ADD": "nhật kí người dùng",
-        "ADD_BULK": "Add some new user stories in bulk",
-        "PROMOTED_FROM_ISSUE": "This user story has been promoted from issue:",
-        "PROMOTED_FROM_TASK": "This user story has been promoted from task:",
-        "CONVERTED_FROM_TASK": "This user story was originally a task.",
+        "ADD": "nhật ký người dùng",
+        "ADD_BULK": "Thêm nhiều nhật ký người dùng mới",
+        "PROMOTED_FROM_ISSUE": "Nhật ký người dùng này đã được thăng cấp từ issue:",
+        "PROMOTED_FROM_TASK": "Nhật ký người dùng này đã được thăng cấp từ task:",
+        "CONVERTED_FROM_TASK": "Nhật ký người dùng này ban đầu là một task.",
         "TITLE_LINK_GO_TO_ISSUE": "Đến issue",
-        "TITLE_LINK_GO_TO_TASK": "Go to task",
-        "TITLE_DELETE_ACTION": "Delete user story",
-        "TITLE_DELETE_MESSAGE": "Are you sure you want to delete <strong>“{{subject}}“</strong>?",
-        "LIGHTBOX_TITLE_BLOKING_US": "Blocking user story",
+        "TITLE_LINK_GO_TO_TASK": "Đi đến task",
+        "TITLE_DELETE_ACTION": "Xóa nhật ký người dùng",
+        "TITLE_DELETE_MESSAGE": "Bạn có chắc chắn muốn xóa <strong>“{{subject}}“</strong>?",
+        "LIGHTBOX_TITLE_BLOKING_US": "Chặn nhật ký người dùng",
         "NOT_ESTIMATED": "N/E",
-        "OWNER_US": "This user story belongs to",
-        "RELATE_TO_EPIC": "Link to epic",
-        "REMOVE_RELATIONSHIP_WITH_EPIC": "Remove epic relationship",
+        "OWNER_US": "Nhật ký người dùng này thuộc về",
+        "RELATE_TO_EPIC": "Liên kết với epic",
+        "REMOVE_RELATIONSHIP_WITH_EPIC": "Ngắt mối quan hệ với epic",
         "TRIBE": {
-            "PUBLISH": "Công khai với vai trò Gig in VST Team Tribe",
+            "PUBLISH": "Công khai với vai trò Gig trong VST Team Tribe",
             "PUBLISH_INFO": "Thêm thông tin",
             "PUBLISH_TITLE": "Thêm thông tin về việc công khai ở VST Team Tribe",
-            "PUBLISHED_AS_GIG": "Nhật kí được công khai như Gig trên VST Team Tribe",
-            "EDIT_LINK": "Chỉnh sửa link",
+            "PUBLISHED_AS_GIG": "Nhật ký được công khai như Gig trên VST Team Tribe",
+            "EDIT_LINK": "Chỉnh sửa liên kết",
             "CLOSE": "Đóng",
-            "SYNCHRONIZE_LINK": "đồng bộ với VST Team Tribe",
-            "PUBLISH_MORE_INFO_TITLE": "Bạn có cần thêm thành viên cho nhiệm vụ này?",
-            "PUBLISH_MORE_INFO_TEXT": "<p>Nếu bạn cần trợ giúp một phần công việc cụ thể, bạn có thể tạo gig một cách dễ dàng trên<a href='http://VST Teamtribe.com' title='VST Team Tribe'> VST Team Tribe </a> và nhận được sự trợ giúp từ các thành viên khác trên toàn thế giới. Bạn có thể kiếm soát và quản lí gig, đồng thời nhận được sự giúp đỡ tích cực từ cộng đồng.</p><p><a href='http://VST Teamtribe.com' title='VST Team Tribe'> VST TeamTribe </a>  được thành lập như \"người anh em\" của VST Team. Cả hai nền tảng có thể hoạt động độc lập nhưng chúng tôi tin rằng việc sử dụng kết hợp sẽ hữu ích hơn, do đó chúng tôi đảm bảo bạn sẽ làm việc hiệu quả hơn.</p>"
+            "SYNCHRONIZE_LINK": "Đồng bộ với VST Team Tribe",
+            "PUBLISH_MORE_INFO_TITLE": "Bạn có cần thêm thành viên cho nhiệm vụ này không?",
+            "PUBLISH_MORE_INFO_TEXT": "<p>Nếu bạn cần trợ giúp cho một phần công việc cụ thể, bạn có thể dễ dàng tạo gig trên <a href='http://VSTTeamtribe.com' title='VST Team Tribe'>VST Team Tribe</a> và nhận được sự hỗ trợ từ các thành viên khác trên toàn thế giới. Bạn có thể kiểm soát và quản lý gig, đồng thời nhận được sự giúp đỡ tích cực từ cộng đồng.</p><p><a href='http://VSTTeamtribe.com' title='VST Team Tribe'>VST Team Tribe</a> được thành lập như \"người anh em\" của VST Team. Cả hai nền tảng có thể hoạt động độc lập nhưng chúng tôi tin rằng việc sử dụng kết hợp sẽ hữu ích hơn, do đó chúng tôi đảm bảo bạn sẽ làm việc hiệu quả hơn.</p>"
         }
     },
     "COMMENTS": {
@@ -1363,18 +1388,18 @@
             "UNASSIGNED": "chưa được phân công"
         },
         "FIELDS": {
-            "SUBJECT": "subject",
+            "SUBJECT": "chủ đề",
             "DESCRIPTION": "mô tả",
             "PRIORITY": "ưu tiên",
-            "SEVERITY": "severity",
+            "SEVERITY": "mức độ nghiêm trọng",
             "STATUS": "Trạng thái",
             "TYPE": "loại",
-            "ASSIGNED_TO": "được phân chia cho",
-            "ASSIGNED_USERS": "assigned users",
-            "DUE_DATE": "due date",
-            "MILESTONE": "sprint",
+            "ASSIGNED_TO": "được phân công cho",
+            "ASSIGNED_USERS": "người dùng được phân công",
+            "DUE_DATE": "Hạn chót",
+            "MILESTONE": "mốc thời gian",
             "COLOR": "màu",
-            "PROMOTED_TO": "promoted to"
+            "PROMOTED_TO": "thăng cấp thành"
         }
     },
     "BACKLOG": {
@@ -1385,15 +1410,15 @@
         "CUSTOMIZE_GRAPH_TEXT": "Để có được một đồ thị đẹp mắt giúp bạn theo dõi tiến độ dự án, bạn cần phải thiết lập các điểm và sprint thông qua",
         "CUSTOMIZE_GRAPH_ADMIN": "Quản trị",
         "CUSTOMIZE_GRAPH_TITLE": "Thiết lập các điểm và sprints thông qua Admin",
-        "TOTAL_STORIES_FILTERED": "of {{ totalUserStories }} user stories",
-        "TOTAL_STORIES": "{{ totalUserStories }} user stories",
+        "TOTAL_STORIES_FILTERED": "của {{ totalUserStories }} nhật ký người dùng",
+        "TOTAL_STORIES": "{{ totalUserStories }} nhật ký người dùng",
         "MOVE_US_TO_CURRENT_SPRINT": "Chuyển tới Sprint hiện tại",
         "MOVE_US_TO_LATEST_SPRINT": "Chuyển tới Sprint mới nhất",
         "EMPTY": "Backlog vẫn rỗng!",
-        "CREATE_NEW_US": "Create a new user story",
-        "CREATE_NEW_US_EMPTY_HELP": "Add a user story",
-        "NO_MATCH": "No matching search result found with “{{ q }}”",
-        "NO_MATCH_HELP": "Try again using more general search terms",
+        "CREATE_NEW_US": "Tạo một nhật ký người dùng mới",
+        "CREATE_NEW_US_EMPTY_HELP": "Thêm một nhật ký người dùng",
+        "NO_MATCH": "Không tìm thấy kết quả nào phù hợp với “{{ q }}”",
+        "NO_MATCH_HELP": "Hãy thử lại với các từ khóa tìm kiếm tổng quát hơn",
         "EXCESS_OF_POINTS": "Vượt quá số điểm",
         "PENDING_POINTS": "Điểm chờ",
         "CLOSED_POINTS": "đã đóng",
@@ -1419,11 +1444,11 @@
         },
         "FORECASTING": {
             "TITLE": "Dự báo Velocity",
-            "BACKLOG": "return to backlog",
-            "NEW_SPRINT": "Candidate user stories for your next sprint based on your velocity.",
-            "CURRENT_SPRINT": "Candidate user stories for your sprint based on your velocity. Click to add to current sprint.",
-            "ADD_NEW_SPRINT": "create sprint and add US",
-            "ADD_NEW_SPRINT_SHORT": "create sprint"
+            "BACKLOG": "Quay lại backlog",
+            "NEW_SPRINT": "Nhật ký người dùng ứng cử cho sprint tiếp theo của bạn dựa trên velocity.",
+            "CURRENT_SPRINT": "Nhật ký người dùng ứng cử cho sprint hiện tại của bạn dựa trên velocity. Nhấn để thêm vào sprint hiện tại.",
+            "ADD_NEW_SPRINT": "Tạo sprint và thêm nhật ký người dùng",
+            "ADD_NEW_SPRINT_SHORT": "Tạo sprint"
         },
         "TABLE": {
             "COLUMN_US": "User Story",
@@ -1465,27 +1490,27 @@
         }
     },
     "ERROR": {
-        "TEXT1": "Something happened and the VST Team has captured the error to be able to work on it.",
+        "TEXT1": "Đã xảy ra sự cố và VST Team đã ghi lại lỗi để có thể xử lý.",
         "NOT_FOUND": "Không tìm thấy",
         "NOT_FOUND_TEXT": "Lỗi 404. Trang bạn tìm kiếm hiện không tồn tại. Bạn có thể quay lại trang chủ VST Team và thử tìm kiếm lại.",
-        "PERMISSION_DENIED": "Từ chối quyền ",
-        "PERMISSION_DENIED_TEXT": "Bạn không được cấp quyền truy cập trang này",
-        "VERSION_ERROR": "Some other user inside VST Team has changed this before and your changes can't be applied. Save them elsewhere, reload the page and re-apply your changes again or they will be lost."
+        "PERMISSION_DENIED": "Từ chối quyền",
+        "PERMISSION_DENIED_TEXT": "Bạn không được cấp quyền truy cập trang này.",
+        "VERSION_ERROR": "Một người dùng khác trong VST Team đã thay đổi điều này trước đó và các thay đổi của bạn không thể được áp dụng. Lưu chúng ở nơi khác, tải lại trang và áp dụng lại các thay đổi của bạn hoặc chúng sẽ bị mất."
     },
     "TASKBOARD": {
         "PAGE_TITLE": "{{sprintName}} - Bảng nhiệm vụ Sprint - {{projectName}}",
-        "PAGE_DESCRIPTION": "Sprint {{sprintName}} (từ {{startDate}} tới {{endDate}}) của {{projectName}}. Đã hoàn thành {{completedPercentage}}% ({{completedPoints}} của {{totalPoints}} points). {{openTasks}} nhiệm vụ đã mở của {{totalTasks}}.",
+        "PAGE_DESCRIPTION": "Sprint {{sprintName}} (từ {{startDate}} tới {{endDate}}) của {{projectName}}. Đã hoàn thành {{completedPercentage}}% ({{completedPoints}} của {{totalPoints}} điểm). {{openTasks}} nhiệm vụ đã mở trong tổng số {{totalTasks}}.",
         "SECTION_NAME": "Bảng nhiệm vụ",
-        "TITLE_ACTION_ADD": "Add a new task",
-        "TITLE_ACTION_ADD_BULK": "Add some new tasks in bulk",
-        "TITLE_ACTION_ADD_ISSUE": "Add a new issue",
-        "TITLE_ACTION_ADD_ISSUE_BULK": "Add some new issues in bulk",
-        "TITLE_ACTION_ASSIGN": "Phân chia nhiệm vụ",
-        "PLACEHOLDER_CARD_TITLE": "This could be a user story",
-        "PLACEHOLDER_CARD_TEXT": "Go to the <a href=\"{{ backlogUrl }}\" title=\"Go to backlog\">backlog</a> and drag user stories to this sprint; split the stories into tasks to track them separately.",
-        "TASK_NOT_FOUND_TITLE": "No matching results found",
-        "TASK_NOT_FOUND_TEXT": "Try again using more general search terms or disabling some filters.",
-        "TITLE_DATE_RANGE": "{{startDate}} <span>to</span> {{endDate}}",
+        "TITLE_ACTION_ADD": "Thêm một nhiệm vụ mới",
+        "TITLE_ACTION_ADD_BULK": "Thêm một số nhiệm vụ mới cùng lúc",
+        "TITLE_ACTION_ADD_ISSUE": "Thêm một vấn đề mới",
+        "TITLE_ACTION_ADD_ISSUE_BULK": "Thêm một số vấn đề mới cùng lúc",
+        "TITLE_ACTION_ASSIGN": "Phân công nhiệm vụ",
+        "PLACEHOLDER_CARD_TITLE": "Đây có thể là một nhật ký người dùng",
+        "PLACEHOLDER_CARD_TEXT": "Đi tới <a href=\"{{ backlogUrl }}\" title=\"Đi tới backlog\">backlog</a> và kéo nhật ký người dùng vào sprint này; chia nhỏ các câu chuyện thành nhiệm vụ để theo dõi chúng riêng biệt.",
+        "TASK_NOT_FOUND_TITLE": "Không tìm thấy kết quả nào phù hợp",
+        "TASK_NOT_FOUND_TEXT": "Hãy thử lại với các từ khóa tổng quát hơn hoặc tắt một số bộ lọc.",
+        "TITLE_DATE_RANGE": "{{startDate}} <span>đến</span> {{endDate}}",
         "TABLE": {
             "COLUMN": "Nhật kí người dùng",
             "TITLE_ACTION_FOLD": "Cuộn cột",
@@ -1498,26 +1523,26 @@
         },
         "CHARTS": {
             "XAXIS_LABEL": "Ngày",
-            "YAXIS_LABEL": "Projected points progress",
-            "OPTIMAL": "Pending points for day {{formattedDate}} should be {{roundedValue}}",
+            "YAXIS_LABEL": "Tiến độ dự kiến",
+            "OPTIMAL": "Điểm chờ trong ngày {{formattedDate}} nên là {{roundedValue}}",
             "REAL": "Điểm chờ thực tế trong ngày {{formattedDate}} là {{roundedValue}}",
             "DATE": "NGÀY THÁNG NĂM",
-            "HELP_LINK": "How this chart works",
-            "HELP_TOOLTIP": "This burndown chart shows the sprint's approximate or projected progress based on estimated user story closed tasks. Actual finished estimated user stories are tracked above."
+            "HELP_LINK": "Cách biểu đồ này hoạt động",
+            "HELP_TOOLTIP": "Biểu đồ burndown này hiển thị tiến độ xấp xỉ hoặc dự kiến của sprint dựa trên các nhiệm vụ đã đóng của nhật ký người dùng được ước lượng. Các nhật ký người dùng đã hoàn thành thực tế được theo dõi ở trên."
         },
         "MOVE_TO_SPRINT": {
-            "TITLE_ACTION_MOVE_UNFINISHED": "Move unfinished items to another sprint",
-            "TITLE_MOVE_UNFINISHED": "Move unfinished items to another open sprint",
-            "MOVE_TO_OPEN_SPRINT": "Move to open sprint",
-            "NO_OPEN_SPRINTS": "There are no other open sprints. Please create one first.",
-            "SELECT_DESTINATION_PLACEHOLDER": "Select destination",
-            "UNFINISHED_USER_STORIES_COUNT": "{total, plural, =1{<strong>#</strong> unfinished user story} other{<strong>#</strong> unfinished user stories}}",
-            "UNFINISHED_STORYLESS_TASKS_COUNT": "{total, plural, =1{<strong>#</strong> unfinished storyless task} other{<strong>#</strong> unfinished storyless tasks}}",
-            "UNFINISHED_ISSUES_COUNT": "{total, plural, =1{<strong>#</strong> unfinished issue} other{<strong>#</strong> unfinished issue}}",
-            "WARNING_ISSUES_NOT_MOVED_TITLE": "You just moved all user stories and taks, and the sprint'll be closed",
-            "WARNING_ISSUES_NOT_MOVED": "The issues'll remain in the sprint and don't be removed",
-            "WARNING_SPRINT_STILL_OPEN_TITLE": "{total, plural, =1{You just moved # item!} other{You just moved # items!}}",
-            "WARNING_SPRINT_STILL_OPEN": "Please note that the sprint {{sprintName}} <strong>will remain open</strong> as long as it contains unfinished items."
+            "TITLE_ACTION_MOVE_UNFINISHED": "Di chuyển các mục chưa hoàn thành sang sprint khác",
+            "TITLE_MOVE_UNFINISHED": "Di chuyển các mục chưa hoàn thành sang sprint mở khác",
+            "MOVE_TO_OPEN_SPRINT": "Di chuyển đến sprint mở",
+            "NO_OPEN_SPRINTS": "Không có sprint mở nào khác. Vui lòng tạo một cái trước.",
+            "SELECT_DESTINATION_PLACEHOLDER": "Chọn điểm đến",
+            "UNFINISHED_USER_STORIES_COUNT": "{total, plural, =1{<strong>#</strong> nhật ký người dùng chưa hoàn thành} other{<strong>#</strong> nhật ký người dùng chưa hoàn thành}}",
+            "UNFINISHED_STORYLESS_TASKS_COUNT": "{total, plural, =1{<strong>#</strong> nhiệm vụ không có nhật ký chưa hoàn thành} other{<strong>#</strong> nhiệm vụ không có nhật ký chưa hoàn thành}}",
+            "UNFINISHED_ISSUES_COUNT": "{total, plural, =1{<strong>#</strong> vấn đề chưa hoàn thành} other{<strong>#</strong> vấn đề chưa hoàn thành}}",
+            "WARNING_ISSUES_NOT_MOVED_TITLE": "Bạn vừa di chuyển tất cả nhật ký người dùng và nhiệm vụ, và sprint sẽ bị đóng",
+            "WARNING_ISSUES_NOT_MOVED": "Các vấn đề sẽ vẫn ở lại trong sprint và không bị xóa",
+            "WARNING_SPRINT_STILL_OPEN_TITLE": "{total, plural, =1{Bạn vừa di chuyển # mục!} other{Bạn vừa di chuyển # mục!}}",
+            "WARNING_SPRINT_STILL_OPEN": "Xin lưu ý rằng sprint {{sprintName}} <strong>sẽ vẫn mở</strong> miễn là nó chứa các mục chưa hoàn thành."
         }
     },
     "TASK": {
@@ -1539,75 +1564,76 @@
     },
     "NOTIFICATION": {
         "OK": "Mọi việc đều ổn",
-        "WARNING": "Oops, something went wrong...",
-        "WARNING_TEXT": "Your changes were not saved!",
-        "SAVED": "The VST Team saved all your changes!",
+        "WARNING": "Oops, có gì đó không ổn...",
+        "WARNING_TEXT": "Các thay đổi của bạn đã không được lưu!",
+        "SAVED": "VST Team đã lưu tất cả các thay đổi của bạn!",
         "CLOSE": "Đóng thông báo",
-        "MAIL": "Thông báo qua mail",
-        "DESKTOP": "Desktop notifications using browser alerts",
+        "COMMUNICATION": "Thông tin liên lạc VST Team",
+        "MAIL": "Thông báo qua email",
+        "DESKTOP": "Thông báo trên desktop sử dụng cảnh báo từ trình duyệt",
         "ASK_DELETE": "Bạn có chắc chắn muốn xóa không?"
     },
     "CANCEL_ACCOUNT": {
         "TITLE": "Hủy tài khoản của bạn",
-        "SUBTITLE": "We're sorry you are leaving the VST Team, we hope you enjoyed your stay :)",
+        "SUBTITLE": "Chúng tôi rất tiếc khi bạn rời khỏi VST Team, hy vọng bạn đã có thời gian vui vẻ :)",
         "PLACEHOLDER_INPUT_TOKEN": "hủy ",
         "ACTION_LEAVING": "Đúng vậy, tôi muốn rời đi!",
-        "SUCCESS": "The VST Team removed your account"
+        "SUCCESS": "VST Team đã xóa tài khoản của bạn"
     },
     "CHANGE_EMAIL_FORM": {
         "TITLE": "Thay đổi email của bạn",
         "SUBTITLE": "Chỉ một lần nhấp chuột nữa thôi và email của bạn sẽ được cập nhật!",
         "PLACEHOLDER_INPUT_TOKEN": "thay đổi tài khoản email",
         "ACTION_CHANGE_EMAIL": "Thay đổi email",
-        "SUCCESS": "Your email address has been successfully changed"
+        "SUCCESS": "Địa chỉ email của bạn đã được thay đổi thành công"
     },
     "VERIFY_EMAIL_FORM": {
-        "TITLE": "Verify your email",
-        "SUBTITLE": "One click more and your email will be verified!",
+        "TITLE": "Xác minh email của bạn",
+        "SUBTITLE": "Chỉ một lần nhấp chuột nữa thôi và email của bạn sẽ được xác minh!",
         "PLACEHOLDER_INPUT_TOKEN": "thay đổi tài khoản email",
-        "ACTION_VERIFY_EMAIL": "Verify email",
-        "SUCCESS": "Congratulations!!, your email address has been verified"
+        "ACTION_VERIFY_EMAIL": "Xác minh email",
+        "SUCCESS": "Chúc mừng!!, địa chỉ email của bạn đã được xác minh"
     },
     "ISSUES": {
         "PAGE_TITLE": "Issues - {{projectName}}",
         "PAGE_DESCRIPTION": "Bảng thông báo danh sách issues của dự án {{projectName}}: {{projectDescription}}",
-        "SECTION_NAME": "Issue",
-        "ACTION_NEW_ISSUE": "NEW ISSUE",
-        "ACTION_ATTACH_SPRINT": "Attach issue to Sprint",
-        "ACTION_DETACH_SPRINT": "Detach issue from Sprint",
-        "EXTERNAL_REFERENCE": "Issue này được tạo từ",
+        "SECTION_NAME": "Vấn đề",
+        "ACTION_NEW_ISSUE": "VẤN ĐỀ MỚI",
+        "ACTION_ATTACH_SPRINT": "Gắn vấn đề vào Sprint",
+        "ACTION_DETACH_SPRINT": "Gỡ vấn đề khỏi Sprint",
+        "EXTERNAL_REFERENCE": "Vấn đề này được tạo từ",
         "GO_TO_EXTERNAL_REFERENCE": "Quay lại ban đầu",
-        "ACTION_DELETE": "Xóa issue",
-        "LIGHTBOX_TITLE_BLOKING_ISSUE": "Chặn issue ",
+        "ACTION_DELETE": "Xóa vấn đề",
+        "LIGHTBOX_TITLE_BLOKING_ISSUE": "Chặn vấn đề",
         "LINK_TASKBOARD": "Bảng nhiệm vụ",
         "TITLE_LINK_TASKBOARD": "Đi tới bảng nhiệm vụ",
-        "FILTER_SPRINTS": "Filter Sprints",
-        "CHOOSE_SPRINT": "Which Sprint?",
+        "FILTER_SPRINTS": "Lọc Sprint",
+        "CHOOSE_SPRINT": "Sprint nào?",
         "FIELDS": {
             "PRIORITY": "Ưu tiên",
             "SEVERITY": "Severity",
             "TYPE": "Loại"
         },
-        "FILTER_ISSUES": "Filter issues",
+        "FILTER_ISSUES": "Lọc issues",
         "CONFIRM_DETACH_FROM_SPRINT": {
-            "TITLE": "Detach issue from sprint",
-            "MESSAGE": "You are about to detach the issue from the sprint <strong>{{ sprintName }}<strong>"
+            "TITLE": "Gỡ vấn đề khỏi sprint",
+            "MESSAGE": "Bạn sắp gỡ vấn đề này khỏi sprint <strong>{{ sprintName }}</strong>"
         },
         "CONFIRM_CHANGE_FROM_SPRINT": {
-            "TITLE": "Attach issue to sprint",
-            "MESSAGE": "<strong>This issue is currently attached to sprint {{ oldSprintName }}</strong>. You are about to detach it from that sprint and attach it instead to sprint <strong>{{ newSprintName }}.</strong>"
+            "TITLE": "Gắn vấn đề vào sprint",
+            "MESSAGE": "<strong>Vấn đề này hiện đang được gắn vào sprint {{ oldSprintName }}</strong>. Bạn sắp gỡ nó khỏi sprint đó và gắn nó vào sprint <strong>{{ newSprintName }}.</strong>"
         },
         "TABLE": {
             "COLUMNS": {
                 "TYPE": "Loại",
-                "SEVERITY": "Severity",
+                "SEVERITY": "Mức độ nghiêm trọng",
                 "PRIORITY": "Ưu tiên",
                 "ISSUE": "Issue",
                 "VOTES": "Lượt bình chọn",
                 "STATUS": "Trạng thái",
-                "ATTACHMENTS": "Attachments",
+                "ATTACHMENTS": "Tập tin đính kèm",
                 "MODIFIED": "Đã thay đổi",
-                "ASSIGNED_TO": "Assign to"
+                "ASSIGNED_TO": "Được phân công cho"
             },
             "TITLE_ACTION_CHANGE_STATUS": "Thay đổi trạng thái",
             "TITLE_ACTION_ASSIGNED_TO": "Được phân công cho",
@@ -1624,24 +1650,24 @@
     },
     "KANBAN": {
         "PAGE_TITLE": "Kanban - {{projectName}}",
-        "PAGE_DESCRIPTION": "Bảng thông báo kanban, với nhật kí người dùng của dự án {{projectName}}: {{projectDescription}}",
+        "PAGE_DESCRIPTION": "Bảng thông báo kanban, với nhật ký người dùng của dự án {{projectName}}: {{projectDescription}}",
         "SECTION_NAME": "Kanban",
         "TITLE_ACTION_FOLD": "Cuộn cột",
         "TITLE_ACTION_UNFOLD": "Bỏ cuộn cột",
-        "TITLE_ACTION_ADD_US": "Add new user story",
-        "TITLE_ACTION_ADD_BULK": "Add new bulk",
-        "ACTION_SHOW_ARCHIVED": "Thể hiện lưu trữ",
+        "TITLE_ACTION_ADD_US": "Thêm nhật ký người dùng mới",
+        "TITLE_ACTION_ADD_BULK": "Thêm hàng loạt mới",
+        "ACTION_SHOW_ARCHIVED": "Hiện lưu trữ",
         "ACTION_HIDE_ARCHIVED": "Ẩn lưu trữ",
-        "US_NOT_FOUND_TITLE": "No matching results found",
-        "US_NOT_FOUND_TEXT_P1": "Try again using more general search terms or disabled some filters.",
-        "US_NOT_FOUND_TEXT_P2": "<strong>Archived stories</strong> are not loaded by default. Unfold the archived statuses to expand your search.",
-        "PLACEHOLDER_CARD_TITLE": "This could be a user story",
-        "PLACEHOLDER_CARD_TEXT": "Create user stories here and change their status to track their progress.",
-        "NUMBER_US": "Number of US",
-        "ARCHIVED": "(Archived)",
-        "CREATE_SWIMLANE": "Create more swimlanes",
-        "UNCLASSIFIED_USER_STORIES": "Unclassified user stories",
-        "UNCLASSIFIED_USER_STORIES_TOOLTIP": "The user stories that are not part of any swimlane are here."
+        "US_NOT_FOUND_TITLE": "Không tìm thấy kết quả nào phù hợp",
+        "US_NOT_FOUND_TEXT_P1": "Hãy thử lại với các từ khóa tổng quát hơn hoặc tắt một số bộ lọc.",
+        "US_NOT_FOUND_TEXT_P2": "<strong>Các câu chuyện đã lưu trữ</strong> không được tải theo mặc định. Hãy bỏ cuộn các trạng thái đã lưu trữ để mở rộng tìm kiếm của bạn.",
+        "PLACEHOLDER_CARD_TITLE": "Đây có thể là một nhật ký người dùng",
+        "PLACEHOLDER_CARD_TEXT": "Tạo nhật ký người dùng ở đây và thay đổi trạng thái của chúng để theo dõi tiến trình.",
+        "NUMBER_US": "Số lượng nhật ký người dùng",
+        "ARCHIVED": "(Đã lưu trữ)",
+        "CREATE_SWIMLANE": "Tạo thêm swimlane",
+        "UNCLASSIFIED_USER_STORIES": "Nhật ký người dùng chưa phân loại",
+        "UNCLASSIFIED_USER_STORIES_TOOLTIP": "Các nhật ký người dùng không thuộc bất kỳ swimlane nào ở đây."
     },
     "SEARCH": {
         "PAGE_TITLE": "Tìm kiếm - {{projectName}}",
@@ -1679,16 +1705,16 @@
         "ACTION_LEAVE_PROJECT": "Rời dự án"
     },
     "USER_SETTINGS": {
-        "AVATAR_MAX_SIZE": "[Max. size: {{maxFileSize}}]",
+        "AVATAR_MAX_SIZE": "[Kích thước tối đa: {{maxFileSize}}]",
         "MENU": {
             "SECTION_TITLE": "Cài đặt người dùng",
             "CHANGE_PASSWORD": "Đổi mật khẩu",
             "EMAIL_NOTIFICATIONS": "Thông báo qua email",
-            "DESKTOP_NOTIFICATIONS": "Desktop notifications",
-            "EVENTS": "Events"
+            "DESKTOP_NOTIFICATIONS": "Thông báo trên desktop",
+            "EVENTS": "Sự kiện"
         },
         "NOTIFICATIONS": {
-            "LIVE_SECTION_NAME": "Desktop Notifications",
+            "LIVE_SECTION_NAME": "Thông báo trên desktop",
             "SECTION_NAME": "Thông báo qua email",
             "COLUMN_PROJECT": "Dự án",
             "COLUMN_RECEIVE_ALL": "Nhận tất cả",
@@ -1699,34 +1725,34 @@
             "OPTION_NONE": "Không"
         },
         "PROJECT_SETTINGS": {
-            "SET_START_PAGES": "Set start pages",
-            "START_PAGES_PER_PROJECT": "Set start pages per project",
+            "SET_START_PAGES": "Cài đặt trang khởi động",
+            "START_PAGES_PER_PROJECT": "Cài đặt trang khởi động cho từng dự án",
             "COLUMN_PROJECT": "Dự án",
-            "COLUMN_STARTPAGE": "Start page",
-            "DEFAULT_VALUE": "Default"
+            "COLUMN_STARTPAGE": "Trang khởi động",
+            "DEFAULT_VALUE": "Mặc định"
         },
         "EVENTS": {
-            "SECTION_NAME": "Events",
-            "SECTION_DESCRIPTION": "Important events in VST Team header",
-            "SECTION_DESCRIPTION_EXPANDED": "(direct mentions, updates in items that you are watching...)",
-            "COLUMN_ENABLED": "Enabled",
+            "SECTION_NAME": "Sự kiện",
+            "SECTION_DESCRIPTION": "Các sự kiện quan trọng trong đầu trang VST Team",
+            "SECTION_DESCRIPTION_EXPANDED": "(nhắc đến trực tiếp, cập nhật trong các mục bạn đang theo dõi...)",
+            "COLUMN_ENABLED": "Bật",
             "COLUMN_PROJECT": "Dự án"
         }
     },
     "USER_PROFILE": {
         "ACTION_USE_GRAVATAR": "Sử dụng hình ảnh mặc định",
         "ACTION_DELETE_ACCOUNT": "Xóa tài khoản VST Team",
-        "ACTION_DOWNLOAD_PROFILE": "Download VST Team profile",
-        "ACTION_VERIFY_EMAIL": "Verify your email",
+        "ACTION_DOWNLOAD_PROFILE": "Tải xuống hồ sơ VST Team",
+        "ACTION_VERIFY_EMAIL": "Xác minh email của bạn",
         "CHANGE_EMAIL_SUCCESS": "<strong>Kiểm tra hộp thư của bạn!</strong><br />Chúng tôi đã gửi một thư tới tài khoản của bạn<br />kèm hướng dẫn để thiết lập địa chỉ mới",
-        "VERIFY_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent you an email<br />with instructions on how to verify your address",
+        "VERIFY_EMAIL_SUCCESS": "<strong>Kiểm tra hộp thư đến của bạn!</strong><br />Chúng tôi đã gửi cho bạn một email<br />kèm hướng dẫn để xác minh địa chỉ của bạn",
         "CHANGE_PHOTO": "Thay đổi hình ảnh",
         "FIELD": {
             "USERNAME": "Tên người dùng",
             "EMAIL": "Email",
             "FULL_NAME": "Tên đầy đủ",
             "PLACEHOLDER_FULL_NAME": "Thiết lập tên đầy đủ (ví dụ: Íñigo Montoya)",
-            "BIO": "Giới thiệu bản thân (tối đa 210 kí tự)",
+            "BIO": "Giới thiệu bản thân (tối đa 210 ký tự)",
             "PLACEHOLDER_BIO": "Kể một vài điều về bạn",
             "LANGUAGE": "Ngôn ngữ",
             "LANGUAGE_DEFAULT": "-- sử dụng ngôn ngữ mặc định --",
@@ -1767,47 +1793,47 @@
         "LINK": "Nếu bạn muốn biết cách sử dụng chúng, xin mời xem thêm trang trợ giúp của chúng tôi",
         "LINK_TITLE": "Tham quan trang hỗ trợ của chúng tôi",
         "HINT1_TITLE": "Bạn có biết rằng bạn có thể nhập và xuất các dự án?",
-        "HINT1_TEXT": "Cho phép bạn xuất toàn bộ dữ liệu từ VST Team và chuyển sang ứng dụng khác",
-        "HINT2_TITLE": "Bạn có biết bạn có thể tạo các trường tùy chỉnh",
+        "HINT1_TEXT": "Cho phép bạn xuất toàn bộ dữ liệu từ VST Team và chuyển sang ứng dụng khác.",
+        "HINT2_TITLE": "Bạn có biết bạn có thể tạo các trường tùy chỉnh?",
         "HINT2_TEXT": "Các nhóm có thể tạo các trường tùy chỉnh, được coi là cách thức linh hoạt để nhập các dữ liệu cụ thể cho công việc cụ thể của họ.",
         "HINT3_TITLE": "Sắp xếp lại dự án của bạn để ưu tiên những dự án liên quan nhất tới bạn.",
-        "HINT3_TEXT": "The 4 projects are listed in the direct access bar at the top.",
+        "HINT3_TEXT": "4 dự án sẽ được liệt kê trong thanh truy cập nhanh ở trên cùng.",
         "HINT4_TITLE": "Bạn quên mất bạn đang làm đến đâu?",
-        "HINT4_TEXT": "Đừng lo, trên bảng điều khiển của bạn, bạn sẽ tìm thấy nhiệm vụ mở, issue, và nhật kí người dùng mở theo thứ tự bạn làm việc."
+        "HINT4_TEXT": "Đừng lo, trên bảng điều khiển của bạn, bạn sẽ tìm thấy nhiệm vụ mở, vấn đề và nhật ký người dùng mở theo thứ tự bạn làm việc."
     },
     "TIMELINE": {
         "UPLOAD_ATTACHMENT": "{{username}} vừa tải lên một tập tin mới {{obj_name}}",
-        "US_CREATED": "{{username}} has created a new user story {{obj_name}} in {{project_name}}",
-        "ISSUE_CREATED": "{{username}} vừa tạo một issue{{obj_name}} trong {{project_name}}",
+        "US_CREATED": "{{username}} đã tạo một user story mới {{obj_name}} trong {{project_name}}",
+        "ISSUE_CREATED": "{{username}} vừa tạo một issue {{obj_name}} trong {{project_name}}",
         "TASK_CREATED": "{{username}} vừa tạo một nhiệm vụ mới {{obj_name}} trong {{project_name}}",
-        "TASK_CREATED_WITH_US": "{{username}} has created a new task {{obj_name}} in {{project_name}} which belongs to the user story {{us_name}}",
+        "TASK_CREATED_WITH_US": "{{username}} đã tạo một nhiệm vụ mới {{obj_name}} trong {{project_name}}, thuộc về user story {{us_name}}",
         "WIKI_CREATED": "{{username}} vừa tạo một wiki mới {{obj_name}} trong {{project_name}}",
         "MILESTONE_CREATED": "{{username}} vừa tạo một sprint mới {{obj_name}} trong {{project_name}}",
         "EPIC_CREATED": "{{username}} vừa tạo một epic mới {{obj_name}} trong {{project_name}}",
-        "EPIC_RELATED_USERSTORY_CREATED": "{{username}} has related the user story {{related_us_name}} to the epic {{epic_name}} in {{project_name}}",
+        "EPIC_RELATED_USERSTORY_CREATED": "{{username}} đã liên kết user story {{related_us_name}} với epic {{epic_name}} trong {{project_name}}",
         "NEW_PROJECT": "{{username}} đã tạo một dự án {{project_name}}",
         "MILESTONE_UPDATED": "{{username}} vừa cập nhật sprint {{obj_name}}",
-        "US_UPDATED": "{{username}} has updated the attribute \"{{field_name}}\" of the user story {{obj_name}}",
-        "US_UPDATED_WITH_NEW_VALUE": "{{username}} has updated the attribute \"{{field_name}}\" of the user story {{obj_name}} to {{new_value}}",
-        "US_UPDATED_POINTS": "{{username}} has updated '{{role_name}}' points of the user story {{obj_name}} to {{new_value}}",
+        "US_UPDATED": "{{username}} đã cập nhật thuộc tính \"{{field_name}}\" của user story {{obj_name}}",
+        "US_UPDATED_WITH_NEW_VALUE": "{{username}} đã cập nhật thuộc tính \"{{field_name}}\" của user story {{obj_name}} tới {{new_value}}",
+        "US_UPDATED_POINTS": "{{username}} đã cập nhật điểm '{{role_name}}' của user story {{obj_name}} tới {{new_value}}",
         "ISSUE_UPDATED": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của issue {{obj_name}}",
         "ISSUE_UPDATED_WITH_NEW_VALUE": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của issue {{obj_name}} tới {{new_value}}",
         "TASK_UPDATED": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của nhiệm vụ {{obj_name}} tới {{new_value}}",
         "TASK_UPDATED_WITH_NEW_VALUE": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của nhiệm vụ {{obj_name}} tới {{new_value}}",
-        "TASK_UPDATED_WITH_US": "{{username}} has updated the attribute \"{{field_name}}\" of the task {{obj_name}} which belongs to the user story {{us_name}}",
-        "TASK_UPDATED_WITH_US_NEW_VALUE": "{{username}} has updated the attribute \"{{field_name}}\" of the task {{obj_name}} which belongs to the user story {{us_name}} to {{new_value}}",
+        "TASK_UPDATED_WITH_US": "{{username}} đã cập nhật thuộc tính \"{{field_name}}\" của nhiệm vụ {{obj_name}}, thuộc về user story {{us_name}}",
+        "TASK_UPDATED_WITH_US_NEW_VALUE": "{{username}} đã cập nhật thuộc tính \"{{field_name}}\" của nhiệm vụ {{obj_name}}, thuộc về user story {{us_name}} tới {{new_value}}",
         "WIKI_UPDATED": "{{username}} vừa cập nhật trang wiki {{obj_name}}",
         "EPIC_UPDATED": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của epic {{obj_name}}",
         "EPIC_UPDATED_WITH_NEW_VALUE": "{{username}} vừa cập nhật thuộc tính \"{{field_name}}\" của epic {{obj_name}} tới {{new_value}}",
         "EPIC_UPDATED_WITH_NEW_COLOR": "{{username}} vừa cập nhật \"{{field_name}}\" của epic {{obj_name}} tới <span class=\"new-color\" style=\"background: {{new_value}}\"></span>",
-        "NEW_COMMENT_US": "{{username}} has commented in the user story {{obj_name}}",
-        "NEW_COMMENT_ISSUE": "{{username}} vừa bình luận issue {{obj_name}}",
+        "NEW_COMMENT_US": "{{username}} đã bình luận trong user story {{obj_name}}",
+        "NEW_COMMENT_ISSUE": "{{username}} vừa bình luận trong issue {{obj_name}}",
         "NEW_COMMENT_TASK": "{{username}} vừa bình luận trong nhiệm vụ {{obj_name}}",
-        "NEW_COMMENT_EPIC": "{{username}} vừa bình luận epic này {{obj_name}}",
+        "NEW_COMMENT_EPIC": "{{username}} vừa bình luận trong epic {{obj_name}}",
         "NEW_MEMBER": "{{project_name}} có một thành viên mới",
-        "US_ADDED_MILESTONE": "{{username}} has added the user story {{obj_name}} to {{sprint_name}}",
-        "US_MOVED": "{{username}} has moved the user story {{obj_name}}",
-        "US_REMOVED_FROM_MILESTONE": "{{username}} has added the user story {{obj_name}} to the backlog",
+        "US_ADDED_MILESTONE": "{{username}} đã thêm user story {{obj_name}} vào {{sprint_name}}",
+        "US_MOVED": "{{username}} đã di chuyển user story {{obj_name}}",
+        "US_REMOVED_FROM_MILESTONE": "{{username}} đã thêm user story {{obj_name}} vào backlog",
         "BLOCKED": "{{username}} vừa chặn {{obj_name}}",
         "UNBLOCKED": "{{username}} vừa gỡ chặn {{obj_name}}",
         "NEW_USER": "{{username}} vừa tham gia vào VST Team",
@@ -1818,21 +1844,21 @@
         }
     },
     "EVENTS": {
-        "TITLE": "Events",
-        "MY_EVENTS": "My events",
-        "DISMISS_ALL": "Dismiss all",
-        "VIEW_ALL": "View all notifications",
-        "NO_NEW_EVENTS": "No new events",
-        "NO_EVENTS_YET": "There are no events yet",
-        "ASSIGNED_YOU": "{{username}} assigned you to {{obj_name}}",
-        "ADDED_YOU_AS_WATCHER": "{{username}} added you as watcher on {{obj_name}}",
-        "ADDED_YOU_AS_MEMBER": "{{username}} added you as member",
-        "MENTIONED_YOU": "{{username}} mentioned you on {{obj_name}}",
-        "MENTIONED_YOU_IN_COMMENT": "{{username}} mentioned you in a comment on {{obj_name}}",
-        "COMMENTED": "{{username}} has commented on {{obj_name}}"
+        "TITLE": "Sự kiện",
+        "MY_EVENTS": "Sự kiện của tôi",
+        "DISMISS_ALL": "Đóng tất cả",
+        "VIEW_ALL": "Xem tất cả thông báo",
+        "NO_NEW_EVENTS": "Không có sự kiện mới",
+        "NO_EVENTS_YET": "Chưa có sự kiện nào",
+        "ASSIGNED_YOU": "{{username}} đã phân công bạn cho {{obj_name}}",
+        "ADDED_YOU_AS_WATCHER": "{{username}} đã thêm bạn làm người theo dõi {{obj_name}}",
+        "ADDED_YOU_AS_MEMBER": "{{username}} đã thêm bạn làm thành viên",
+        "MENTIONED_YOU": "{{username}} đã nhắc đến bạn trên {{obj_name}}",
+        "MENTIONED_YOU_IN_COMMENT": "{{username}} đã nhắc đến bạn trong một bình luận trên {{obj_name}}",
+        "COMMENTED": "{{username}} đã bình luận trên {{obj_name}}"
     },
     "LEGAL": {
-        "TERMS_OF_SERVICE_AND_PRIVACY_POLICY_AD": "<span>When creating a new account, you agree to our </span><a href=\"{{ termsOfServiceUrl }}\" title=\"See terms of service\" target=\"_blank\">terms of service</a><span> and </span><a href=\"{{ privacyPolicyUrl }}\" title=\"See privacy policy\" target=\"_blank\">privacy policy</a>."
+        "TERMS_OF_SERVICE_AND_PRIVACY_POLICY_AD": "<span>Khi tạo một tài khoản mới, bạn đồng ý với </span><a href=\"{{ termsOfServiceUrl }}\" title=\"Xem điều khoản dịch vụ\" target=\"_blank\">điều khoản dịch vụ</a><span> và </span><a href=\"{{ privacyPolicyUrl }}\" title=\"Xem chính sách bảo mật\" target=\"_blank\">chính sách bảo mật</a>."
     },
     "EXTERNAL_APP": {
         "PAGE_TITLE": "Ứng dụng bên ngoài cần phải xác thực",
@@ -1877,14 +1903,14 @@
             },
             "STEP2": {
                 "TITLE": "Sản phẩm backlog",
-                "TEXT": "Backlog là danh sách các yêu cầu (Nhật kí người dùng) cho dự án. Bạn sẽ lên kế hoạch sprint tại đây."
+                "TEXT": "Backlog là danh sách các yêu cầu (Nhật ký người dùng) cho dự án. Bạn sẽ lên kế hoạch sprint tại đây."
             },
             "STEP3": {
                 "TITLE": "Sprints",
                 "TEXT": "Sprint chỉ kéo dài trong khoảng thời gian ngắn (thường là 2 tuần) trong thời gian các công việc cụ thể cần được hoàn thành và chuyển đi."
             },
             "STEP4": {
-                "TITLE": "Nhật kí người dùng",
+                "TITLE": "Nhật ký người dùng",
                 "TEXT": "Đây là những yêu cầu cấp cao. Bạn có thể thêm vào backlog và kéo chúng tới sprint mà cần được chuyển đi."
             }
         },
@@ -1894,12 +1920,12 @@
                 "TEXT": "Thiết lập các cột bạn cần để định hình trạng thái công việc thông qua quản trị viên."
             },
             "STEP2": {
-                "TITLE": "Nhật kí người dùng và nhiệm vụ",
-                "TEXT": "User stories are the requirements at high level. You can drag them to different columns."
+                "TITLE": "Nhật ký người dùng và nhiệm vụ",
+                "TEXT": "User stories là những yêu cầu cấp cao. Bạn có thể kéo chúng đến các cột khác nhau."
             },
             "STEP3": {
-                "TITLE": "Thêm nhật kí người dùng",
-                "TEXT1": "You may want to add a single user story (add user story icon) or a group of them (bulk icon)",
+                "TITLE": "Thêm nhật ký người dùng",
+                "TEXT1": "Bạn có thể thêm một user story đơn lẻ (biểu tượng thêm user story) hoặc một nhóm chúng (biểu tượng nhóm)",
                 "TEXT2": "Chúc may mắn!"
             }
         }
@@ -1908,7 +1934,7 @@
         "PAGE_TITLE": "Khám phá dự án - VST Team",
         "PAGE_DESCRIPTION": "Danh mục tìm kiếm các dự án công khai ở VST Team. Khám phá backlog, dòng thời gian, issue, và các nhóm. Kiểm tra các dự án thích nhất hoặc hoạt động tích cực nhất. Lọc bằng Kanban hoặc Scrum.",
         "DISCOVER_TITLE": "Khám phá dự án",
-        "DISCOVER_SUBTITLE": "{projects, plural, =1{One public project to discover} other{# public projects to discover}}",
+        "DISCOVER_SUBTITLE": "{projects, plural, =1{} other{# public projects to discover}}",
         "MOST_ACTIVE": "Hoạt động tích cực nhất",
         "MOST_ACTIVE_EMPTY": "Không có dự án ĐANG HOẠT ĐỘNG",
         "MOST_LIKED": "Được yêu thích mới nhất",
@@ -1936,10 +1962,10 @@
         }
     },
     "ZOOM": {
-        "TITLE": "Zoom:",
-        "ZOOM-1": "Compact",
-        "ZOOM-2": "Default",
-        "ZOOM-3": "Detailed",
-        "ZOOM-4": "Expanded"
+        "TITLE": "Phóng to:",
+        "ZOOM-1": "Gọn",
+        "ZOOM-2": "Mặc định",
+        "ZOOM-3": "Chi tiết",
+        "ZOOM-4": "Mở rộng"
     }
 }

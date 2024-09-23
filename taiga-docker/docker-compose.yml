@@ -7,7 +7,7 @@ x-environment:
   POSTGRES_DB: "taiga"
   POSTGRES_USER: "postgres"
   POSTGRES_PASSWORD: "postgres"
-  POSTGRES_HOST: "192.168.2.92"
+  POSTGRES_HOST: "192.168.0.100"
   # Taiga settings
   TAIGA_SECRET_KEY: "${SECRET_KEY}"
   TAIGA_SITES_SCHEME: "${TAIGA_SCHEME}"
