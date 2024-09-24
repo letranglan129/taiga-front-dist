@@ -27,7 +27,7 @@ form.single-attachment(
         span {{vm.attachment.getIn(['file', 'description'])}}
 
     .attachment-date
-        span {{::vm.attachment.getIn(['file', 'created_date']) | date:'dd MMM yyyy HH:mm'}}
+        span {{::vm.attachment.getIn(['file', 'created_date']) | date: 'dd/MM/yyyy HH:mm'}}
     .attachment-size
         span {{::vm.attachment.getIn(['file', 'size']) | sizeFormat}}
 
