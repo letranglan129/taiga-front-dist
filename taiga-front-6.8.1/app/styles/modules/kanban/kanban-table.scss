@@ -170,7 +170,7 @@ body {
                 @include font-size(small);
                 @include font-type(medium);
                 color: $color-black900;
-                line-height: 1em;
+                line-height: 1.5em;
             }
         }
         .option {

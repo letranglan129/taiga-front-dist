@@ -52,6 +52,7 @@
         "CARD": {
             "ASSIGN_TO": "Phân công cho",
             "EDIT": "Chỉnh sửa thẻ",
+            "MOVE_TO_TOP": "Đưa lên trên",
             "DELETE": "Xóa thẻ",
             "DELETE_ISSUE": "Xóa issue",
             "DETACH_ISSUE_FROM_SPRINT": "Gỡ khỏi sprint",
@@ -230,7 +231,7 @@
             "CONFIRM_DELETE": "Lưu ý rằng tất cả giá trị trong trường tùy chỉnh này sẽ bị xóa."
         },
         "FILTERS": {
-            "INPUT_PLACEHOLDER": "chủ đề hoặc tham chiếu",
+            "INPUT_PLACEHOLDER": "Tìm kiếm...",
             "TITLE_ACTION_FILTER_BUTTON": "tìm kiếm",
             "TITLE": "Bộ lọc tùy chỉnh",
             "TITLE_ACTION_SEARCH": "Tìm kiếm",
@@ -895,9 +896,9 @@
         "HELP": "Sắp xếp lại các dự án của bạn để đưa những dự án thường sử dụng nhất lên đầu.<br/> 4 dự án hàng đầu sẽ xuất hiện trong danh sách dự án trên thanh điều hướng ở trên.",
         "PRIVATE": "Dự án riêng tư",
         "LOOKING_FOR_PEOPLE": "Dự án này đang cần thêm thành viên",
-        "FANS_COUNTER_TITLE": "{total, plural, =1{one fan} other{# fans}}",
-        "WATCHERS_COUNTER_TITLE": "{total, plural, =1{one watcher} other{# watchers}}",
-        "MEMBERS_COUNTER_TITLE": "{total, plural, =1{one member} other{# members}}",
+        "FANS_COUNTER_TITLE": "{total, plural, =1{một fan} other{# fans}}",
+        "WATCHERS_COUNTER_TITLE": "{total, plural, =1{một người xem} other{# người xem}}",
+        "MEMBERS_COUNTER_TITLE": "{total, plural, =1{một thành viên} other{# thành viên}}",
         "BLOCKED_PROJECT": {
             "BLOCKED": "Dự án bị chặn",
             "THIS_PROJECT_IS_BLOCKED": "Dự án này hiện đang tạm khóa",
@@ -1144,7 +1145,7 @@
         },
         "SELECT_USER": {
             "SEARCH": "Tìm kiếm người dùng",
-            "REMOVE": "Remove user",
+            "REMOVE": "Xóa người dùng",
             "ROLE": "Vai trò"
         },
         "ADD_MEMBER": {
@@ -1201,7 +1202,10 @@
             "SELECT_STATUS": "Chọn trạng thái",
             "DEFAULT": "Mặc định",
             "ERROR_STATUS": "Thay đổi không thể được lưu vì có vấn đề với trạng thái đã chọn.",
-            "ERROR_SWIMLANE": "Thay đổi không thể được lưu vì có vấn đề với swimlane đã chọn."
+            "ERROR_SWIMLANE": "Thay đổi không thể được lưu vì có vấn đề với swimlane đã chọn.",
+            "LOCATION": "Vị trí",
+            "CREATE_BOTTOM": "ở dưới",
+            "CREATE_TOP": "ở trên"
         },
         "DISABLE_KANBAN": {
             "TITLE": "Vô hiệu hóa kanban",
@@ -1473,7 +1477,7 @@
         "FILTERS": {
             "TOGGLE": "Bộ lọc Toggle có thể nhìn thấy",
             "TITLE": "Bộ lọc",
-            "HIDE_TITLE": "Hide filters"
+            "HIDE_TITLE": "Ẩn bộ lọc"
         },
         "SPRINTS": {
             "TITLE": "SPRINTS",
@@ -1687,17 +1691,17 @@
         "PAGE_DESCRIPTION": "Bảng thông báo nhóm để thể hiện toàn bộ thành viên trong dự án {{projectName}}: {{projectDescription}}",
         "SECTION_NAME": "Nhóm",
         "PLACEHOLDER_INPUT_SEARCH": "Tìm kiếm bằng tên đầy đủ...",
-        "COLUMN_MR_WOLF": "Mr. Wolf",
+        "COLUMN_MR_WOLF": "Issue đã đóng",
         "EXPLANATION_COLUMN_MR_WOLF": "Các issue đã đóng",
-        "COLUMN_IOCAINE": "Thành viên uống iocaine",
+        "COLUMN_IOCAINE": "Iocaine",
         "EXPLANATION_COLUMN_IOCAINE": "Liều iocaine đã sử dụng",
-        "COLUMN_CERVANTES": "Cervantes",
+        "COLUMN_CERVANTES": "Wiki",
         "EXPLANATION_COLUMN_CERVANTES": "Trang wiki đã được chỉnh sửa",
-        "COLUMN_BUG_HUNTER": "Tìm kiếm bọ",
+        "COLUMN_BUG_HUNTER": "Phát hiện Bug",
         "EXPLANATION_COLUMN_BUG_HUNTER": "Issue được báo cáo",
-        "COLUMN_NIGHT_SHIFT": "Chế độ ban đêm",
+        "COLUMN_NIGHT_SHIFT": "Ca đêm",
         "EXPLANATION_COLUMN_NIGHT_SHIFT": "Nhiệm vụ đã đóng",
-        "COLUMN_TOTAL_POWER": "Tổng sức mạnh",
+        "COLUMN_TOTAL_POWER": "Tổng điểm",
         "EXPLANATION_COLUMN_TOTAL_POWER": "Tổng điểm",
         "SECTION_TITLE_TEAM": "Nhóm",
         "SECTION_FILTER_ALL": "Tất cả",
@@ -1949,7 +1953,7 @@
             "PEOPLE": "Tìm kiếm thành viên",
             "WEEK": "Tuần trước",
             "MONTH": "Tháng trước",
-            "YEAR": "Năm ngoái",
+            "YEAR": "Năm trước",
             "ALL_TIME": "Mọi lúc",
             "CLEAR": "Xóa bộ lọc"
         },

@@ -11733,7 +11733,7 @@ body {
         font-size: .875rem;
         font-family: 'Ubuntu-Medium', Arial, Helvetica, sans-serif;
         color: #2E3440;
-        line-height: 1em; }
+        line-height: 1.5em; }
     .kanban-table-header .task-colum-name .option {
       margin-right: .125rem; }
       .kanban-table-header .task-colum-name .option:last-child {
