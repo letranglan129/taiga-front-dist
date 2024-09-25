@@ -1938,7 +1938,7 @@
         "PAGE_TITLE": "Khám phá dự án - VST Team",
         "PAGE_DESCRIPTION": "Danh mục tìm kiếm các dự án công khai ở VST Team. Khám phá backlog, dòng thời gian, issue, và các nhóm. Kiểm tra các dự án thích nhất hoặc hoạt động tích cực nhất. Lọc bằng Kanban hoặc Scrum.",
         "DISCOVER_TITLE": "Khám phá dự án",
-        "DISCOVER_SUBTITLE": "{projects, plural, =1{} other{# public projects to discover}}",
+        "DISCOVER_SUBTITLE": "{projects, plural, =1{} other{# dự án công cộng để khám phá}}",
         "MOST_ACTIVE": "Hoạt động tích cực nhất",
         "MOST_ACTIVE_EMPTY": "Không có dự án ĐANG HOẠT ĐỘNG",
         "MOST_LIKED": "Được yêu thích mới nhất",

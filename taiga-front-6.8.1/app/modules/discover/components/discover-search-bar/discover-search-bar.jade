@@ -10,12 +10,7 @@ div.discover-header
 
         h1.title {{ 'DISCOVER.DISCOVER_TITLE' | translate }}
 
-        p.project-number(
-            ng-if="vm.projects",
-            translate="DISCOVER.DISCOVER_SUBTITLE",
-            translate-values="{ projects: '{{vm.projects}}'}"
-            translate-interpolation="messageformat"
-        )
+        p.project-number
 
         form(ng-submit="vm.submitFilter()")
             div.searchbox
