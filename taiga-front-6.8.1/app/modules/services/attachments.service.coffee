@@ -57,7 +57,7 @@ class AttachmentsService
 
     list: (type, objId, projectId) ->
         return @rs.attachments.list(type, objId, projectId).then (attachments) =>
-            return attachments.sortBy (attachment) => attachment.get('order')
+            return attachments.sortBy (attachment) => -new Date(attachment.get('created_date')).getTime()
 
     get: (type, id) ->
         return @rs.attachments.get(@.types[type], id)

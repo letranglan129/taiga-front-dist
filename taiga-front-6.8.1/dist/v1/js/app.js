@@ -29369,6 +29369,7 @@
       this.projectService = projectService;
       this.attachmentsPreviewService = attachmentsPreviewService;
       this.mode = this.storage.get('attachment-mode', 'list');
+      this.sortType = "DESC";
       this.maxFileSize = this.config.get("maxUploadFileSize", null);
       if (this.maxFileSize) {
         this.maxFileSize = sizeFormat(this.maxFileSize);
@@ -29405,12 +29406,18 @@
     AttachmentsFullController.prototype.addAttachment = function(file) {
       var editable;
       editable = this.mode === 'list';
-      return this.attachmentsFullService.addAttachment(this.projectId, this.objId, this.type, file, editable);
+      return this.attachmentsFullService.addAttachment(this.projectId, this.objId, this.type, file, false);
     };
 
     AttachmentsFullController.prototype.setMode = function(mode) {
       this.mode = mode;
       return this.storage.set('attachment-mode', mode);
+    };
+
+    AttachmentsFullController.prototype.setSortType = function(sortType) {
+      this.sortType = sortType;
+      this.attachmentsFullService.setSortType(this.sortType);
+      return console.log(this);
     };
 
     AttachmentsFullController.prototype.toggleDeprecatedsVisible = function() {
@@ -29553,6 +29560,7 @@
       this._deprecatedsVisible = false;
       this.uploadingAttachments = [];
       this.types = this.attachmentsService.types;
+      this.sortType = "DESC";
       taiga.defineImmutableProperty(this, 'attachments', (function(_this) {
         return function() {
           return _this._attachments;
@@ -29595,7 +29603,7 @@
 
     AttachmentsFullService.prototype.addAttachment = function(projectId, objId, type, file, editable, comment) {
       if (editable == null) {
-        editable = true;
+        editable = false;
       }
       if (comment == null) {
         comment = false;
@@ -29618,10 +29626,11 @@
                 loading: false,
                 from_comment: comment
               });
-              _this._attachments = _this._attachments.push(attachment);
+              _this._attachments = _this._attachments.unshift(attachment);
               _this.regenerate();
               _this.rootScope.$broadcast("attachment:create");
-              return resolve(attachment);
+              resolve(attachment);
+              return _this.setSortType(_this.sortType);
             });
           } else {
             return reject(new Error(file));
@@ -29650,6 +29659,7 @@
 
     AttachmentsFullService.prototype.deleteAttachment = function(toDeleteAttachment, type) {
       var onSuccess;
+      this.setSortType(this.sortType);
       onSuccess = (function(_this) {
         return function() {
           _this._attachments = _this._attachments.filter(function(attachment) {
@@ -29683,6 +29693,7 @@
 
     AttachmentsFullService.prototype.updateAttachment = function(toUpdateAttachment, type) {
       var index, oldAttachment, patch;
+      this.setSortType(this.sortType);
       index = this._attachments.findIndex(function(attachment) {
         return attachment.getIn(['file', 'id']) === toUpdateAttachment.getIn(['file', 'id']);
       });
@@ -29706,6 +29717,17 @@
     AttachmentsFullService.prototype.setAttachments = function(index, toUpdateAttachment) {
       this._attachments = this._attachments.set(index, toUpdateAttachment);
       return this.regenerate();
+    };
+
+    AttachmentsFullService.prototype.setSortType = function(sortType) {
+      var sortedAttachments;
+      this.sortType = sortType;
+      sortedAttachments = sortType === "DESC" ? this._attachmentsVisible.sortBy(function(attachment) {
+        return -new Date(attachment.getIn(['file', 'created_date']));
+      }) : this._attachmentsVisible.sortBy(function(attachment) {
+        return new Date(attachment.getIn(['file', 'created_date']));
+      });
+      return this._attachmentsVisible = sortedAttachments;
     };
 
     return AttachmentsFullService;
@@ -46347,7 +46369,7 @@
       return this.rs.attachments.list(type, objId, projectId).then((function(_this) {
         return function(attachments) {
           return attachments.sortBy(function(attachment) {
-            return attachment.get('order');
+            return -new Date(attachment.get('created_date')).getTime();
           });
         };
       })(this));

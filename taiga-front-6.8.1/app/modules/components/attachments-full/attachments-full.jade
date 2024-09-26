@@ -12,6 +12,17 @@ section.attachments.attachment-full(
     .attachments-header
         h3.attachments-title #[span.attachments-num {{vm.attachments.size}}] #[span.attachments-text(translate="ATTACHMENT.SECTION_NAME")]
         .options
+            button.sort-button(
+                ng-class="{'hidden': vm.sortType == 'DESC'}"
+                ng-click="vm.setSortType('DESC')"
+            )
+                <svg style="width: 24px !important; height: 24px !important;" width="24px" height="24px" viewBox="0 0 0.72 0.72" xmlns="http://www.w3.org/2000/svg"><path d="M0.21 0.156a0.204 0.204 0 1 0 0.204 0.204A0.204 0.204 0 0 0 0.21 0.156m0 0.378a0.174 0.174 0 1 1 0.174 -0.174A0.174 0.174 0 0 1 0.21 0.534M0.21 0.36h0.09v0.03H0.18V0.24h0.03zm0.469 0.109 0.021 0.021 -0.116 0.116 -0.116 -0.116 0.021 -0.021L0.57 0.549V0.152h0.03v0.397z"/><path fill="none" d="M0 0h0.72v0.72H0z"/></svg>
+            button.sort-button(
+                ng-class="{'hidden': vm.sortType == 'ASC'}"
+                ng-click="vm.setSortType('ASC')"
+            )
+            
+                <svg style="width: 24px !important; height: 24px !important;" width="24px" height="24px" viewBox="0 0 0.72 0.72" xmlns="http://www.w3.org/2000/svg"><path d="M0.57 0.57V0.171l-0.079 0.079 -0.021 -0.021L0.585 0.114l0.116 0.116 -0.021 0.021L0.6 0.171V0.57zM0.21 0.156A0.204 0.204 0 1 1 0.006 0.36 0.204 0.204 0 0 1 0.21 0.156M0.036 0.36A0.174 0.174 0 1 0 0.21 0.186 0.174 0.174 0 0 0 0.036 0.36m0.264 0H0.21V0.24H0.18v0.15h0.12z"/><path fill="none" d="M0 0h0.72v0.72H0z"/></svg>
             button.view-gallery(
                 ng-class="{'is-active': vm.mode == 'gallery'}"
                 ng-if="vm.attachments.size"
@@ -48,8 +59,17 @@ section.attachments.attachment-full(
 
     .attachments-empty(ng-if="!vm.attachments.size && !vm.uploadingAttachments().length")
         div {{'ATTACHMENT.DROP' | translate}}
-    .attachment-list.sortable(ng-if="vm.mode == 'list'")
-        div(tg-attachments-sortable="vm.reorderAttachment(attachment, index)")
+    .attachment-list(ng-if="vm.mode == 'list'")
+        div
+          .single-attachment.uploading-attachment(ng-repeat="file in vm.uploadingAttachments()")
+              .attachment-name
+                  tg-svg(svg-icon="icon-attachment")
+                  span {{file.name}}
+              .attachment-size
+                  span {{file.size | sizeFormat}}
+              .attachment-comments
+                  span {{file.progressMessage}}
+                  progress.percentage(value="{{file.progressPercent}}" max="100")
           div(
             tg-repeat="attachment in vm.attachmentsVisible track by attachment.getIn(['file', 'id'])",
             tg-bind-scope
@@ -61,15 +81,7 @@ section.attachments.attachment-full(
                 type="vm.type"
             )
 
-          .single-attachment.uploading-attachment(ng-repeat="file in vm.uploadingAttachments()")
-              .attachment-name
-                  tg-svg(svg-icon="icon-attachment")
-                  span {{file.name}}
-              .attachment-size
-                  span {{file.size | sizeFormat}}
-              .attachment-comments
-                  span {{file.progressMessage}}
-                  progress.percentage(value="{{file.progressPercent}}" max="100")
+          
 
         a.more-attachments(
           href="",

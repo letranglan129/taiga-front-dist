@@ -22,6 +22,7 @@ class AttachmentsFullController
     constructor: (@translate, @confirm, @config, @storage, @attachmentsFullService, @projectService, @attachmentsPreviewService) ->
         @.mode = @storage.get('attachment-mode', 'list')
 
+        @.sortType = "DESC"
         @.maxFileSize = @config.get("maxUploadFileSize", null)
         @.maxFileSize = sizeFormat(@.maxFileSize) if @.maxFileSize
         @.maxFileSizeMsg = if @.maxFileSize then @translate.instant("ATTACHMENT.MAX_UPLOAD_SIZE", {maxFileSize: @.maxFileSize}) else ""
@@ -37,12 +38,17 @@ class AttachmentsFullController
     addAttachment: (file) ->
         editable = (@.mode == 'list')
 
-        @attachmentsFullService.addAttachment(@.projectId, @.objId, @.type, file, editable)
+        @attachmentsFullService.addAttachment(@.projectId, @.objId, @.type, file, false)
 
     setMode: (mode) ->
         @.mode = mode
 
         @storage.set('attachment-mode', mode)
+
+    setSortType: (sortType) -> 
+        @.sortType = sortType
+        @attachmentsFullService.setSortType(@.sortType)
+        console.log(@)
 
     toggleDeprecatedsVisible: () ->
         @attachmentsFullService.toggleDeprecatedsVisible()

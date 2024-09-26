@@ -20,6 +20,7 @@ class AttachmentsFullService extends taiga.Service
         @._deprecatedsVisible = false
         @.uploadingAttachments = []
         @.types = @attachmentsService.types
+        @.sortType = "DESC"
 
         taiga.defineImmutableProperty @, 'attachments', () => return @._attachments
         taiga.defineImmutableProperty @, 'deprecatedsCount', () => return @._deprecatedsCount
@@ -38,7 +39,8 @@ class AttachmentsFullService extends taiga.Service
         else
             @._attachmentsVisible = @._attachments.filter (it) -> !it.getIn(['file', 'is_deprecated'])
 
-    addAttachment: (projectId, objId, type, file, editable = true, comment = false) ->
+    addAttachment: (projectId, objId, type, file, editable = false, comment = false) ->
+        
         return @q (resolve, reject) =>
             if @attachmentsService.validate(file)
                 @.uploadingAttachments.push(file)
@@ -57,18 +59,20 @@ class AttachmentsFullService extends taiga.Service
                         from_comment: comment
                     })
 
-                    @._attachments = @._attachments.push(attachment)
+                    @._attachments = @._attachments.unshift(attachment)
 
                     @.regenerate()
 
                     @rootScope.$broadcast("attachment:create")
 
                     resolve(attachment)
+                    @.setSortType(@.sortType)
             else
                 reject(new Error(file))
 
     loadAttachments: (type, objId, projectId)->
         @attachmentsService.list(type, objId, projectId).then (files) =>
+
             @._attachments = files.map (file) ->
                 attachment = Immutable.Map()
 
@@ -83,6 +87,7 @@ class AttachmentsFullService extends taiga.Service
             @.regenerate()
 
     deleteAttachment: (toDeleteAttachment, type) ->
+        @.setSortType(@.sortType)
         onSuccess = () =>
             @._attachments = @._attachments.filter (attachment) -> attachment != toDeleteAttachment
 
@@ -114,6 +119,7 @@ class AttachmentsFullService extends taiga.Service
         )
 
     updateAttachment: (toUpdateAttachment, type) ->
+        @.setSortType(@.sortType)
         index = @._attachments.findIndex (attachment) ->
             return attachment.getIn(['file', 'id']) == toUpdateAttachment.getIn(['file', 'id'])
 
@@ -135,5 +141,14 @@ class AttachmentsFullService extends taiga.Service
 
         @.regenerate()
 
+    setSortType: (sortType) -> 
+        @.sortType = sortType
+
+        sortedAttachments = if sortType == "DESC"
+            @._attachmentsVisible.sortBy (attachment) -> -new Date(attachment.getIn(['file', 'created_date']))
+        else
+            @._attachmentsVisible.sortBy (attachment) -> new Date(attachment.getIn(['file', 'created_date']))
+        @._attachmentsVisible = sortedAttachments
+        
 
 angular.module("taigaComponents").service("tgAttachmentsFullService", AttachmentsFullService)
